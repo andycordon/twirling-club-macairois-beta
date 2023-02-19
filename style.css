@@ -11,78 +11,51 @@
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, button {
-    font-family: Arial Rounded MT Bold;
-}
-
 body {
     font-family: Arial Rounded MT Bold;
     overflow-x: hidden;
-    max-width: 750px;
+    max-width: 1440px;
     margin: 0 auto;
     text-align: center;
-}
-
-
-
- .section1 {
-    background: #131313;
-    height: 100vh;
-    color: #E6DBC6;
-}
-
-.logo-accueil {
-    width:100% ;
-    margin-top: 150px;
-    padding: 0 10px;
-}
-#section2 {
-    background: linear-gradient(to bottom left, #E61652, 90%,#E6DBC6);
-    height: 100vh;
- }
- .section3 {
-    background-color: green;
-    height: 100vh;
- }
- .section4 {
-    background-color: yellow;
-    height: 100vh;
- }
-
- 
- 
- header{
-     display: flex;
-     align-items: center;
-     position: fixed;
-     background-color: #131313;
-     border-bottom: 3px solid #E6DBC6;
-     padding: 10px;
-     width: 100%;
-     height: 75px;
-     z-index: 1;
-    }
-    .logo {
-       width: 50px;
-    } 
-    header h3 {
-    width: 300%;
-    margin-left: 10px;
     color: #E6DBC6;
 }
 
 
+/* Header mobile */
 
- .menu {
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #131313;
+    border-bottom: 3px solid #E6DBC6;
+    padding: 10px;
+    width: 100%;
+    height: 75px;
+    z-index: 1;
+   }
+   .logo {
+      width: 50px;
+   } 
+   header a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+   }
+header a p {
+   margin-left: 10px;
+   color: #E6DBC6;
+   text-align: left;
+}
+.menu {
     width: 100%;
     z-index: 200;
-  }
-  
-  #check {
+} 
+#check {
     display: none;
-  }
-  
-  .button {
+}
+.button {
     position: absolute;
     top:10px;
     right: 10px;
@@ -99,29 +72,26 @@ body {
     border: 1px solid white;
     border-radius: 10px;
     box-shadow: -3px 3px 3px #818181;
-  }
+}
   .button span {
-    height: 3px;
-    width: 100%;
-    background: white;
-    display: inline-block;
-    transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
-  }
-  
-  #check:checked ~ .button span:nth-child(1) {
+      height: 3px;
+      width: 100%;
+      background: white;
+      display: inline-block;
+      transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
+    }
+#check:checked ~ .button span:nth-child(1) {
     width: 100%;
     transform: rotate(45deg) translateY(6px) translateX(6px);
-  }
-  #check:checked ~ .button span:nth-child(2) {
+}
+#check:checked ~ .button span:nth-child(2) {
     width: 0;
-  }
-  
-  #check:checked ~ .button span:nth-child(3) {
+}
+#check:checked ~ .button span:nth-child(3) {
     width: 100%;
     transform: rotate(-45deg) translateY(-7px) translateX(7px);
-  }
-  
-  nav {
+}
+nav {
     transition: all 0.4s ease;
     position: absolute;
     top:70px;
@@ -130,12 +100,12 @@ body {
     height: 0;
     padding: 0 5px;
     border-radius: 0 0 20px 20px ;
-  }
-  #check:checked ~ nav {
+}
+#check:checked ~ nav {
     background-color: #131313;
     height: 205px;
-  }
-  nav a {
+}
+nav a {
     text-decoration: none;
     font-size: 21px;
     transition: all 0.4s cubic-bezier(0.22, 0.43, 0.35, 1.5);
@@ -145,8 +115,8 @@ body {
     width: 100%;
     text-align: center;
     display: block;
-  }
-  #check:checked ~ nav a {
+}
+#check:checked ~ nav a {
     border-radius: 20px;
     background-color:#E61652;
     color: white;
@@ -156,33 +126,29 @@ body {
     transform: scale(1);
     border: 1px solid white;
     margin: 3px 0px;
-  }
-  
-  #check:checked ~ nav a:hover {
+}
+#check:checked ~ nav a:hover {
     background-color: #E6DBC6;
     color: black;
     border: 1px solid #131313;
   }
-  
-  
-
-  .baton{
-    animation: rotate 1.0s linear infinite;
-    width: 30%;
-    position: absolute;
-    top:140px;
-    left:30px;
-  }
-  @keyframes rotate{
-    to{ transform: rotate(-360deg); }
-  }
 
 
-.section1 h1 {
+/* Section 1 mobile*/
+
+#section1 {
+    background: #131313;
+    height: 100vh;
+}
+.logo-accueil {
+    width:100% ;
+    margin-top: 150px;
+    padding: 0 10px;
+}
+#section1 h1 {
     margin: 40px 0 80px 0;
 }
-
-  .button2 {
+.button2 {
     background: linear-gradient(to top right, #E61652, 80%,#E6DBC6);
     color: inherit;
     border: 2px solid white;
@@ -190,11 +156,44 @@ body {
     padding: 15px 20px;
     border-radius: 30px;
 }
-
 .button2:hover {
     background: linear-gradient(to top right, #E61652, 20%,#E6DBC6);
     color: #131313;
     box-shadow: none;
     border: 2px solid #131313;
     transition:400ms ease-out;
-  }
+}  
+.baton{
+    animation: rotate 400ms linear infinite;
+    width: 30%;
+    position: absolute;
+    top:140px;
+    left:30px;
+}
+@keyframes rotate{
+    to{ transform: rotate(-360deg); }
+}
+
+
+/* Section 2 mobile */
+
+#section2 {
+    background: linear-gradient(to top, #E61652, #131313);
+    height: 100vh;
+}
+#section2 h1 {
+    padding-top: 100px;
+    
+}
+ #section3 {
+    background: linear-gradient(to top,#E6DBC6, #E61652);
+    height: 100vh;
+ }
+ #section4 {
+    background: linear-gradient(to top,white ,#E6DBC6);
+    height: 100vh;
+ }
+ #section5 {
+    background: linear-gradient(to top,#131313,white);
+    height: 100vh;
+ }
