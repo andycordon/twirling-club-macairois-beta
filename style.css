@@ -264,10 +264,25 @@ nav a {
 #section6 {
   background: #131313;
 }
+#section6 h1{
+    padding: 100px 0 30px 0;
+    color: #e61652;
+}
+#section6 h2{
+    color: #e61652;
+}
+#section6 p{
+    color: #e6dbc6;
+}
 
+.fa-phone, .fa-location-dot, .fa-envelope{
+    color: #e61652;
+    margin: 30px 0px 10px 0;
+    font-size: 22px;
+}
 .img-twirleuse {
   width: 50%;
-  margin: 0 0 20px 0;
+  margin: 40px 0 20px 0;
   animation: incline 2000ms linear infinite;
 }
 @keyframes incline {
@@ -292,14 +307,15 @@ nav a {
 }
 .elevation-baton {
   position: absolute;
-  margin: -20px 0px 0px -180px;
+  margin: 20px 0px 0px -180px;
   animation: elevation 1000ms alternate infinite;
 }
 @keyframes elevation {
   to {
-    margin-top: -500px;
+    margin-top: -370px;
   }
 }
+
 
 footer {
   background-color: #e6dbc6;
