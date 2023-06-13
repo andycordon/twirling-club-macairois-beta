@@ -14,7 +14,7 @@
 body {
   font-family: Arial Rounded MT Bold;
   overflow-x: hidden;
-  max-width: 1440px;
+  max-width: 400px;
   margin: 0 auto;
   text-align: center;
 }
@@ -111,7 +111,7 @@ nav {
 }
 #check:checked ~ nav {
   background-color: #131313;
-  height: 205px;
+  height: 278px;
 }
 nav a {
   text-decoration: none;
@@ -190,7 +190,8 @@ nav a {
   border: 2px solid #131313;
   box-shadow: -3px 3px 3px #818181;
   padding: 15px 20px;
-  border-radius: 30px;
+  margin: 0px 0 -20px 0;
+  border-radius: 50px;
 }
 .button3:hover {
   background: linear-gradient(to top right, #e61652, 20%, #e6dbc6);
@@ -220,6 +221,7 @@ nav a {
 #section2 {
   background: linear-gradient(to top, #e61652, #131313);
   color: white;
+
 }
 #section2 h1 {
   padding: 100px 0 0 0;
@@ -244,13 +246,15 @@ nav a {
   color: #131313;
 }
 #section3 h1 {
-  padding: 100px 0 0 0;
+  padding: 10px 0 0 0;
 }
 #section3 h2 {
   margin: 20px 0 10px 0;
 }
 .img-salle {
   width:100%;
+  height: 350px;
+  object-fit: cover;
   border-radius: 25px;
   border: 2px solid #131313;
   padding: 5px;
@@ -356,21 +360,26 @@ footer a:hover {
   transform: scale(1.1);
 }
 .fa-facebook{
-  margin: 10px 0 10px 10px;
+  margin: 10px 0px 10px 10px;
   font-size: 32px;
 }
 .fa-instagram {
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 10px 12px;
   font-size: 36px;
+}
+.fa-discord {
+  margin: 10px 0 10px 12px;
+  font-size: 32px;
 }
 
 footer ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 footer li a {
-  margin: 0 5px;
+  margin: 0  10px 5px 10px;
   font-size: 14px;
   color: #131313;
 }
