@@ -17,10 +17,10 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 24px;
+  font-size: 28px;
 }
 h2 {
-  font-size: 22px;
+  font-size: 26px;
 }
 p {
   font-size: 18px;
@@ -204,6 +204,10 @@ nav a {
 }
 
 /* Section 3 mobile */
+article {
+  padding: 10px 0;
+}
+
 
 #section3 {
   background: linear-gradient(to top, #e6dbc6, #e61652);
@@ -211,11 +215,7 @@ nav a {
   color: #131313;
 }
 #section3 h1 {
-  padding: 50px 0 0 0;
-}
-
-#section3 article {
-  margin:10px 0 30px 0;
+  padding: 50px 0 0px 0;
 }
 
 .img-salle {
@@ -236,21 +236,14 @@ nav a {
 #section4 h1 {
   padding: 50px 0 0 0;
 }
-#section4 .article {
-  display: flex;
-}
-#section4 img {
-  height: 300px;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-  margin: 0;
-}
 
-.test {
-  display: flex;
-  background-color: red;
-  margin: 0px 0 0 0;
-  z-index: ;
+img {
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid #131313;
+  padding: 5px;
+  margin: 10px 0;
+  max-height: 375px;
 }
 
 #section5 {
@@ -258,7 +251,7 @@ nav a {
   height: 100vh;
 }
 #section5 h1 {
-  padding: 100px 0 30px 0;
+  padding: 50px 0 0px 0;
 }
 #section6 {
   background: #131313;
@@ -384,7 +377,9 @@ footer li a {
   align-items: center;
   justify-content: center;
 }
-
+.bottom-button{
+  margin-bottom: 10px;
+}
 
 .button3 {
   background-color: #e61652;
