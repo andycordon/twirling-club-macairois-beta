@@ -1,65 +1,8 @@
-/*Mobile style*/
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  scroll-behavior: smooth;
-}
-body {
-  font-family: Arial Rounded MT Bold;
-  overflow-x: hidden;
-  max-width: 1440px;
-  margin: 0 auto;
-  text-align: center;
-}
-h1 {
-  font-size: 28px;
-}
-h2 {
-  font-size: 26px;
-}
-p {
-  font-size: 18px;
-}
-
-/* Header mobile */
-header {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  background-color: #131313;
-  border-bottom: 3px solid #e6dbc6;
-  padding: 10px;
-  width: 100%;
-  height: 75px;
-  z-index: 1;
-}
-.logo {
-  width: 50px;
-}
-header a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-}
-header a p {
-  margin-left: 10px;
-  color: #e6dbc6;
-  text-align: left;
-}
-.menu {
-  width: 100%;
-  z-index: 200;
-}
+/*Bouton du menu ouvert-fermé*/
 #check {
   display: none;
 }
-.button {
+.buttonMenu {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -77,21 +20,21 @@ header a p {
   border-radius: 20px;
   box-shadow: -3px 3px 3px #818181;
 }
-.button span {
+.buttonMenu span {
   height: 3px;
   width: 100%;
   background: white;
   display: inline-block;
   transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
 }
-#check:checked ~ .button span:nth-child(1) {
+#check:checked ~ .buttonMenu span:nth-child(1) {
   width: 100%;
   transform: rotate(45deg) translateY(6px) translateX(6px);
 }
-#check:checked ~ .button span:nth-child(2) {
+#check:checked ~ .buttonMenu span:nth-child(2) {
   width: 0;
 }
-#check:checked ~ .button span:nth-child(3) {
+#check:checked ~ .buttonMenu span:nth-child(3) {
   width: 100%;
   transform: rotate(-45deg) translateY(-7px) translateX(7px);
 }
@@ -107,7 +50,7 @@ nav {
 }
 #check:checked ~ nav {
   background-color: #131313;
-  height: 278px;
+  height: 315px;
 }
 nav a {
   text-decoration: none;
@@ -130,6 +73,7 @@ nav a {
   transform: scale(1);
   border: 1px solid white;
   margin: 3px 0px;
+  
 }
 #check:checked ~ nav a:hover {
   background-color: #e6dbc6;
@@ -138,14 +82,80 @@ nav a {
 }
 
 
-/* Section 1 mobile*/
-#section1 {
-  background: #131313;
-  height: 100vh;
-  padding: 0 5px;
+
+
+/*Mobile style*/
+
+/*Reset et bases*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial Rounded MT Bold;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #131313;
+
   color: #e6dbc6;
 }
-.logo-accueil {
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 26px;
+}
+p {
+  font-size: 18px;
+}
+article {
+  margin: 20px 5px;
+}
+article img {
+  width:100%;
+  border-radius: 25px;
+  border: 2px solid #e6dbc6;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+/* Header mobile */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: #131313;
+  border-bottom: 3px solid #e6dbc6;
+  padding: 10px;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
+}
+.logo {
+  width: 50px;
+}
+header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header a p {
+  margin-left: 10px;
+  color: #e6dbc6;
+}
+
+/* Section 1 ACCUEIL mobile*/
+#section1 {
+  height: 100vh;
+}
+.logoAccueil {
   width: 100%;
   margin-top: 130px;
   padding: 0 10px;
@@ -165,7 +175,7 @@ nav a {
 #section1 h1 {
   margin: 30px 0 60px 0;
 }
-.button2 {
+.buttonDecouverte {
   background: linear-gradient(to top right, #e61652, 80%, #e6dbc6);
   color: inherit;
   border: 2px solid white;
@@ -173,7 +183,7 @@ nav a {
   padding: 15px 20px;
   border-radius: 30px;
 }
-.button2:hover {
+.buttonDecouverte:hover {
   background: linear-gradient(to top right, #e61652, 20%, #e6dbc6);
   color: #131313;
   box-shadow: none;
@@ -182,88 +192,38 @@ nav a {
 }
 
 
-/* Section 2 mobile */
-#section2 {
-  background: linear-gradient(to top, #e61652, #131313);
-  color: white;
-  padding: 0 5px;
-}
+/* Section 2 LE CLUB mobile */
 #section2 h1 {
   padding: 100px 0 0 0;
-  margin:0 0 10px 0;
-}
-.img-presentation {
-  width:100%;
-  border-radius: 25px;
-  border: 2px solid #e6dbc6;
-  padding: 5px;
-  margin: 0px 0;
 }
 #section2 p {
-  padding: 10px 0;
-}
-
-/* Section 3 mobile */
-article {
-  padding: 10px 0;
-}
-
-
-#section3 {
-  background: linear-gradient(to top, #e6dbc6, #e61652);
-  padding: 0 5px;
-  color: #131313;
-}
-#section3 h1 {
-  padding: 50px 0 0px 0;
-}
-
-.img-salle {
-  width:100%;
-  height: 375px;
-  object-fit: cover;
-  border-radius: 25px;
-  border: 2px solid #131313;
-  padding: 5px;
   margin: 10px 0;
 }
 
+
+/* Section 3 A LA UNE mobile */
+#section3{
+  margin: 50px 0 0px 0;
+}
+
+
+/* Section 4 LA BOUTIQUE mobile*/
 #section4 {
-  background: linear-gradient(to top, white, #e6dbc6);
-  color: #131313;
-  padding: 0 5px;
-}
-#section4 h1 {
-  padding: 50px 0 0 0;
+  margin: 70px 0 0 0;
 }
 
-article img {
-  width: 100%;
-  border-radius: 25px;
-  border: 2px solid #131313;
-  padding: 5px;
-  margin: 10px 0;
-}
 
-#section5 {
-  background: linear-gradient(to top, #131313, white);
-  height: 100vh;
-}
+/* Section 5 LES ENTRAINEMENTS mobile*/
 #section5 h1 {
-  padding: 50px 0 0px 0;
+  margin: 50px 0 0px 0;
 }
-#section6 {
-  background: #131313;
-}
+
+
+/* Section 6 CONTACT mobile*/
 #section6 h1{
-    padding: 100px 0 30px 0;
-    color: #e61652;
+    margin: 100px 0 30px 0;
   }
-  #section6 h2, #section6 p{
-    color: #e6dbc6;
-  }
-  
-  .fa-phone, .fa-location-dot, .fa-envelope{
+.fa-phone, .fa-location-dot, .fa-envelope{
     color: #e61652;
     margin: 30px 0px 10px 0;
     font-size: 22px;
@@ -303,16 +263,14 @@ article img {
   }
 }
 
-
+/* Footer mobile*/
 footer {
   background-color: #e6dbc6;
   border-top: 3px solid #e61652;
+  color: #131313;
 }
 footer a {
   color: #131313;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 footer a:hover {
   color: #e61652;
@@ -331,28 +289,45 @@ footer a:hover {
   margin: 10px 0 10px 12px;
   font-size: 32px;
 }
-
+.pictoAlig{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 footer ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 footer li a {
-  margin: 0  10px 5px 10px;
+  margin: 0 8px;
   font-size: 14px;
-  color: #131313;
 }
-
 .copyrigth {
-  text-align: center;
   font-size: 10px;
   padding: 10px 0;
-  color: #131313;
 }
 
 
-
+/*Button All*/
+.buttonPlus {
+  background-color: #e61652;
+  color: #e6dbc6;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: -3px 3px 3px #818181;
+}
+.buttonPlus:hover {
+  background-color: #d40f49;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.buttonPlusBottom{
+  margin-bottom: 10px;
+}
 
 
 
@@ -370,40 +345,3 @@ footer li a {
   margin: 10px 0;
   box-shadow: -3px 3px 3px #818181;
 } */
-
-.test-alig{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.bottom-button{
-  margin-bottom: 10px;
-}
-
-.button3 {
-  background-color: #e61652;
-  color: #e6dbc6;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.button3:hover {
-  background-color: #d40f49;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.button3:focus {
-  outline: none;
-}
-
-.button3:active {
-  background-color: #bf0b40;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-
