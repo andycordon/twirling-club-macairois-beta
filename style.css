@@ -16,7 +16,7 @@
   padding-top: 8px;
   line-height: 8px;
   z-index: 201;
-  border: 1px solid white;
+  border: 1px solid #e6dbc6;
   border-radius: 20px;
   box-shadow: -3px 3px 3px #818181;
 }
@@ -49,12 +49,12 @@ nav {
   border-radius: 0 0 20px 20px;
 }
 #check:checked ~ nav {
-  background-color: #131313;
-  height: 315px;
+  background-color: #030303;
+  height: 386px;
 }
 nav a {
   text-decoration: none;
-  font-size: 21px;
+  font-size: 22px;
   transition: all 0.4s cubic-bezier(0.22, 0.43, 0.35, 1.5);
   opacity: 0;
   transform: scale(0);
@@ -68,17 +68,17 @@ nav a {
   background-color: #e61652;
   color: white;
   font-weight: 600;
-  padding: 5px;
+  padding: 8px;
   opacity: 1;
   transform: scale(1);
-  border: 1px solid white;
-  margin: 3px 0px;
+  border: 1px solid #e6dbc6;
+  margin: 5px 0px;
   
 }
 #check:checked ~ nav a:hover {
   background-color: #e6dbc6;
   color: black;
-  border: 1px solid #131313;
+  border: 1px solid #030303;
 }
 
 
@@ -102,27 +102,38 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  background-color: #131313;
-
-  color: #e6dbc6;
+  background-color: #030303;
+  color: #fff;
 }
 h1 {
   font-size: 28px;
+  color: #e61652;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #e6dbc6;
 }
 h2 {
   font-size: 26px;
+  color: #e6dbc6;
+  margin: 5px 0 0 0;
 }
 p {
   font-size: 18px;
 }
+section{
+  padding: 0px 5px;
+}
+
 article {
-  margin: 20px 5px;
+  margin: 30px 0;
 }
 article img {
   width:100%;
   border-radius: 25px;
-  border: 2px solid #e6dbc6;
+  border: 3px solid #e6dbc6;
   padding: 5px;
+}
+
+article p{
   margin: 5px 0;
 }
 
@@ -131,7 +142,7 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
-  background-color: #131313;
+  background-color: #030303;
   border-bottom: 3px solid #e6dbc6;
   padding: 10px;
   width: 100%;
@@ -148,7 +159,7 @@ header a {
 }
 header a p {
   margin-left: 10px;
-  color: #e6dbc6;
+  color: #fff;
 }
 
 /* Section 1 ACCUEIL mobile*/
@@ -174,20 +185,22 @@ header a p {
 }
 #section1 h1 {
   margin: 30px 0 60px 0;
+  color: #fff;
+  -webkit-text-stroke: 0px;  
 }
 .buttonDecouverte {
   background: linear-gradient(to top right, #e61652, 80%, #e6dbc6);
   color: inherit;
-  border: 2px solid white;
+  border: 2px solid #e6dbc6;
   box-shadow: -3px 3px 3px #818181;
   padding: 15px 20px;
   border-radius: 30px;
 }
 .buttonDecouverte:hover {
   background: linear-gradient(to top right, #e61652, 20%, #e6dbc6);
-  color: #131313;
+  color: #030303;
   box-shadow: none;
-  border: 2px solid #131313;
+  border: 2px solid #030303;
   transition: 400ms ease-out;
 }
 
@@ -203,25 +216,25 @@ header a p {
 
 /* Section 3 A LA UNE mobile */
 #section3{
-  margin: 50px 0 0px 0;
+  margin: 90px 0 0px 0;
 }
 
 
 /* Section 4 LA BOUTIQUE mobile*/
 #section4 {
-  margin: 70px 0 0 0;
+  margin: 90px 0 0 0;
 }
 
 
 /* Section 5 LES ENTRAINEMENTS mobile*/
 #section5 h1 {
-  margin: 50px 0 0px 0;
+  margin: 90px 0 0px 0;
 }
 
 
 /* Section 6 CONTACT mobile*/
 #section6 h1{
-    margin: 100px 0 30px 0;
+    margin: 90px 0 30px 0;
   }
 .fa-phone, .fa-location-dot, .fa-envelope{
     color: #e61652;
@@ -254,12 +267,12 @@ header a p {
 }
 .elevation-baton {
   position: absolute;
-  margin:25px 0px 0px -170px;
+  margin:25px 0px 0px -190px;
   animation: elevation 1500ms alternate infinite;
 }
 @keyframes elevation {
   to {
-    margin-top: -400px;
+    margin-top: -450px;
   }
 }
 
@@ -267,10 +280,10 @@ header a p {
 footer {
   background-color: #e6dbc6;
   border-top: 3px solid #e61652;
-  color: #131313;
+  color: #030303;
 }
 footer a {
-  color: #131313;
+  color: #030303;
 }
 footer a:hover {
   color: #e61652;
@@ -311,23 +324,41 @@ footer li a {
 
 /*Button All*/
 .buttonPlus {
+  display: inline-block;
   background-color: #e61652;
   color: #e6dbc6;
   padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  border: none;
   border-radius: 15px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
   box-shadow: -3px 3px 3px #818181;
 }
 .buttonPlus:hover {
-  background-color: #d40f49;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: bounce 500ms;
+  background-color: #bf0b40;
+  box-shadow: none;
 }
-.buttonPlusBottom{
-  margin-bottom: 10px;
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+    
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
+
+
 
 
 
@@ -341,7 +372,7 @@ footer li a {
   width: 100%;
   height: 220px;
   border-radius: 30px;
-  border: 2px solid #131313;
+  border: 2px solid #030303;
   margin: 10px 0;
   box-shadow: -3px 3px 3px #818181;
 } */
