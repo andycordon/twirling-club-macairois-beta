@@ -81,7 +81,12 @@ nav a {
   border: 1px solid #030303;
 }
 
-
+iframe {
+  border: none;
+  width: 100%;
+  height: 200px;
+  margin: 10px 0;  
+}
 
 
 /*Mobile style*/
@@ -113,7 +118,6 @@ h1 {
 }
 h2 {
   font-size: 26px;
-  color: #e6dbc6;
   margin: 5px 0 0 0;
 }
 p {
@@ -362,17 +366,45 @@ footer li a {
 
 
 
+/*Contact*/
+#contact h1 {
+    padding: 100px 0 0 0;  
+}
+
+#contact a {
+  color:white;
+}
+
+#contact a :hover {
+  transition: all 400ms ease-out;
+  color: #e6dbc6;
+}
 
 
+#contact .fa-facebook{
+  margin: 20px 0 5px 0;
+  font-size: 30px;
+  color: #e61652;
+}
+#contact .fa-instagram {
+  margin: 20px 0 5px 0;
+  font-size: 36px;
+  color: #e61652;
+}
+#contact .fa-discord {
+  margin: 20px 0 5px 0;
+  font-size: 32px;
+  color: #e61652;
+}
 
+#contact .elevation-baton {
+  position: absolute;
+  margin:5px 0px 0px -190px;
+  animation: elevation-contact 1500ms alternate infinite;
+}
 
-
-
-/* .map {
-  width: 100%;
-  height: 220px;
-  border-radius: 30px;
-  border: 2px solid #030303;
-  margin: 10px 0;
-  box-shadow: -3px 3px 3px #818181;
-} */
+@keyframes elevation-contact {
+  to {
+    margin-top: -340px;
+  }
+}
