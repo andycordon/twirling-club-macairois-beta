@@ -370,13 +370,6 @@ footer li a {
 #contact h1 {
     padding: 100px 0 0 0;  
 }
-#contact a {
-  color:white;
-}
-#contact a :hover {
-  transition: all 400ms ease-out;
-  color: #e6dbc6;
-}
 #contact .fa-phone, .fa-location-dot, .fa-envelope{
   font-size: 28px;
 }
@@ -392,6 +385,13 @@ footer li a {
   margin: 20px 0 5px 0;
   color: #e61652;
 }
+#contact a {
+  color:white;
+}
+#contact a:hover {
+  transition: all 400ms ease-out;
+  color: #e6dbc6;
+}
 #contact .elevation-baton {
   position: absolute;
   margin:5px 0px 0px -190px;
@@ -401,4 +401,23 @@ footer li a {
   to {
     margin-top: -340px;
   }
+}
+
+/*Entrainements*/
+#entrainements h1 {
+  padding: 100px 0 0 0;  
+}
+#entrainements a {
+  color:white;
+}
+#entrainements a:hover {
+  transition: all 400ms ease-out;
+  color: red;
+}
+
+#entrainements h2 {
+  margin: 0 0 10px 0;
+}
+#entrainements p {
+  margin: 10px 0 25px 0;
 }
