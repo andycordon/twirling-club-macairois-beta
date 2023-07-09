@@ -370,39 +370,33 @@ footer li a {
 #contact h1 {
     padding: 100px 0 0 0;  
 }
-
 #contact a {
   color:white;
 }
-
 #contact a :hover {
   transition: all 400ms ease-out;
   color: #e6dbc6;
 }
-
-
+#contact .fa-phone, .fa-location-dot, .fa-envelope{
+  font-size: 28px;
+}
 #contact .fa-facebook{
   margin: 20px 0 5px 0;
-  font-size: 30px;
   color: #e61652;
 }
 #contact .fa-instagram {
   margin: 20px 0 5px 0;
-  font-size: 36px;
   color: #e61652;
 }
 #contact .fa-discord {
   margin: 20px 0 5px 0;
-  font-size: 32px;
   color: #e61652;
 }
-
 #contact .elevation-baton {
   position: absolute;
   margin:5px 0px 0px -190px;
   animation: elevation-contact 1500ms alternate infinite;
 }
-
 @keyframes elevation-contact {
   to {
     margin-top: -340px;
