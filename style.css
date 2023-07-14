@@ -82,10 +82,12 @@ nav a {
 }
 
 iframe {
-  border: none;
-  width: 100%;
+  width:100%;
   height: 200px;
-  margin: 10px 0;  
+  border-radius: 25px;
+  border: 3px solid #e6dbc6;
+  padding: 5px;
+  margin: 5px 0;
 }
 
 
@@ -412,7 +414,7 @@ footer li a {
 }
 #entrainements a:hover {
   transition: all 400ms ease-out;
-  color: red;
+  color: #e61652;
 }
 
 #entrainements h2 {
@@ -420,4 +422,8 @@ footer li a {
 }
 #entrainements p {
   margin: 10px 0 25px 0;
+}
+#entrainements img {
+  margin: 5px 0;
+
 }
