@@ -120,7 +120,10 @@ h1 {
 }
 h2 {
   font-size: 26px;
-  margin: 5px 0 0 0;
+  color: #e6dbc6;
+}
+h3 {
+  font-size: 22px;
 }
 p {
   font-size: 18px;
@@ -414,16 +417,14 @@ footer li a {
 }
 #entrainements a:hover {
   transition: all 400ms ease-out;
-  color: #e61652;
+  color: #e6dbc6;
 }
-
-#entrainements h2 {
-  margin: 0 0 10px 0;
+#entrainements h3 {
+  margin:10px 0 0 0;
 }
 #entrainements p {
-  margin: 10px 0 25px 0;
+  margin: 10px 0;
 }
 #entrainements img {
   margin: 5px 0;
-
 }
