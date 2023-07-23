@@ -428,3 +428,28 @@ footer li a {
 #entrainements img {
   margin: 5px 0;
 }
+
+/*Club*/
+#club h1 {
+  padding: 100px 0 0 0;  
+}
+
+/*À la une*/
+#a-la-une h1 {
+  padding: 100px 0 0 0;  
+}
+
+/*Boutique*/
+#boutique h1 {
+  padding: 100px 0 0 0;  
+}
+
+/*Degrès*/
+#degres h1 {
+  padding: 100px 0 0 0;  
+}
+
+/*Infos pratiques*/
+#infos h1 {
+  padding: 100px 0 0 0;  
+}
