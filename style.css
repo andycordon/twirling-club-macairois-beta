@@ -468,12 +468,14 @@ footer li a {
 }
 
 /*Degrès détaillé*/
+#degres-details {
+}
 #degres-details h1 {
   padding: 100px 0 10px 0;  
 }
 #degres-details h2 {
   color: #030303;
-  padding: 10px;
+  padding: 5px;
 }
 #degres-details h2:hover {
   color: #e6dbc6;
