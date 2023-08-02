@@ -429,10 +429,6 @@ footer li a {
   margin: 5px 0;
 }
 
-/*Club*/
-#club h1 {
-  padding: 100px 0 0 0;  
-}
 
 /*À la une*/
 #a-la-une h1 {
@@ -468,8 +464,6 @@ footer li a {
 }
 
 /*Degrès détaillé*/
-#degres-details {
-}
 #degres-details h1 {
   padding: 100px 0 10px 0;  
 }
@@ -513,20 +507,88 @@ footer li a {
 }
 
 #degres-details-serie div{
-width: 30%;
-margin: 5px;
+  width: 30%;
+  margin: 5px;
 }
 #degres-details-serie div img{
-border: 1px solid #e6dbc6;
-padding: 0;
-border-radius: 20px;
+  border: 1px solid #e6dbc6;
+  padding: 0;
+  border-radius: 20px;
 }
 #degres-details-serie .descriptifs div p{
-font-size: 12px;
+  font-size: 12px;
 }
 
 
 /*Infos pratiques*/
 #infos h1 {
   padding: 100px 0 0 0;  
+}
+
+/*Club*/
+#club h1 {
+  padding: 100px 0 0 0;  
+}
+#club .polaroid {
+  background: #fff;
+  display: inline-block;
+  padding: 10px 10px 25px 10px;
+  width: 250px;
+  box-shadow: -1px 3px 5px #818181;
+  transition: all .5s ease-in-out;
+  margin: 20px 0;
+
+}
+#club .polaroid:hover {
+  opacity: 0.85;
+}
+#club .polaroid img {
+  border: 1px solid #000;
+  padding: 0;
+  border-radius: 0px;
+}
+#club .polaroid h3 {
+  color:#000;
+}
+#club .polaroid p {
+  color:#000;
+}
+.pol1{
+  transform: rotate(-3deg);
+}
+.pol2{
+  transform: rotate(4deg);
+}
+.pol3{
+  transform: rotate(-6deg);
+}
+.pol4{
+  transform: rotate(5deg);
+}
+.pol5{
+  transform: rotate(6deg);
+}
+.pol6{
+  transform: rotate(-4deg);
+}
+
+
+
+/*Carousel présentation du club*/
+.carousel-item {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 450px;
+  flex: 1 0 250px;
+  margin-left: 1rem;
+  scroll-snap-align: start;
+}
+.carousel-items {
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}
+.carousel img {
+  width:100%
 }
