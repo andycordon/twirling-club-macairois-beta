@@ -530,6 +530,8 @@ footer li a {
   padding: 100px 0 0 0;  
 }
 #club .polaroid {
+  position: relative;
+
   background: #fff;
   display: inline-block;
   padding: 10px 10px 25px 10px;
@@ -537,11 +539,13 @@ footer li a {
   box-shadow: -1px 3px 5px #818181;
   transition: all .5s ease-in-out;
   margin: 20px 0;
+  
+}
+#club .polaroid:hover .overlay {
+  opacity: 1;
+  rotate: 180(deg);
+}
 
-}
-#club .polaroid:hover {
-  opacity: 0.85;
-}
 #club .polaroid img {
   border: 1px solid #000;
   padding: 0;
@@ -553,22 +557,42 @@ footer li a {
 #club .polaroid p {
   color:#000;
 }
-.pol1{
+#club .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 500ms ease;
+  background-color: #fff;
+}
+#club .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+#club .pol1{
   transform: rotate(-3deg);
 }
-.pol2{
+#club .pol2{
   transform: rotate(4deg);
 }
-.pol3{
+#club .pol3{
   transform: rotate(-6deg);
 }
-.pol4{
+#club .pol4{
   transform: rotate(5deg);
 }
-.pol5{
+#club .pol5{
   transform: rotate(6deg);
 }
-.pol6{
+#club .pol6{
   transform: rotate(-4deg);
 }
 
@@ -591,4 +615,10 @@ footer li a {
 }
 .carousel img {
   width:100%
+}
+
+.fa-reply{
+  color: #000;
+  font-size: 30px;
+  margin: 0px 0px 0 180px;
 }
