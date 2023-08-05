@@ -525,89 +525,35 @@ footer li a {
   padding: 100px 0 0 0;  
 }
 
+
+
 /*Club*/
 #club h1 {
   padding: 100px 0 0 0;  
 }
-#club .polaroid {
-  position: relative;
-
-  background: #fff;
-  display: inline-block;
-  padding: 10px 10px 25px 10px;
-  width: 250px;
-  box-shadow: -1px 3px 5px #818181;
-  transition: all .5s ease-in-out;
-  margin: 20px 0;
-  
-}
-#club .polaroid:hover .overlay {
-  opacity: 1;
-  rotate: 180(deg);
-}
-
-#club .polaroid img {
-  border: 1px solid #000;
-  padding: 0;
-  border-radius: 0px;
-}
-#club .polaroid h3 {
-  color:#000;
-}
-#club .polaroid p {
-  color:#000;
-}
-
-#club .pol1{
-  transform: rotate(-3deg);
-}
-#club .pol2{
-  transform: rotate(4deg);
-}
-#club .pol3{
-  transform: rotate(-6deg);
-}
-#club .pol4{
-  transform: rotate(5deg);
-}
-#club .pol5{
-  transform: rotate(6deg);
-}
-#club .pol6{
-  transform: rotate(-4deg);
-}
-
-
-
-/*Carousel présentation du club*/
+/*Club carousel*/
 .carousel-item {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 450px;
   flex: 1 0 250px;
-  margin-left: 1rem;
+  margin: 20px 0 20px 15px;
   scroll-snap-align: start;
 }
 .carousel-items {
   display: flex;
   overflow-x: scroll;
-  padding: 1rem 0;
-  scroll-snap-type: x mandatory;
+  padding: 20px 0;
 }
 .carousel img {
   width:100%
 }
-
 .fa-reply{
   color: #000;
   font-size: 30px;
   margin: 0px 0px 0 180px;
 }
-
-
-
-
-/*flip card*/
+/*flip card + polaroid*/
 .flip-card {
   background-color: transparent;
   width: 250px;
@@ -622,7 +568,6 @@ footer li a {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -648,4 +593,23 @@ footer li a {
   transform: rotateY(180deg);
   padding: 10px;
   box-shadow: -1px 3px 5px #818181;
+}
+/*Club inclinaison polaroid*/
+.pol1{
+  transform: rotate(-3deg);
+}
+.pol2{
+  transform: rotate(4deg);
+}
+.pol3{
+  transform: rotate(-6deg);
+}
+.pol4{
+  transform: rotate(5deg);
+}
+.pol5{
+  transform: rotate(6deg);
+}
+.pol6{
+  transform: rotate(-4deg);
 }
