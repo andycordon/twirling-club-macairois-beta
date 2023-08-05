@@ -647,4 +647,5 @@ footer li a {
   color: #000;
   transform: rotateY(180deg);
   padding: 10px;
+  box-shadow: -1px 3px 5px #818181;
 }
