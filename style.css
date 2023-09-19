@@ -616,3 +616,9 @@ footer li a {
 .pol6{
   transform: rotate(-4deg);
 }
+
+.fa-circle-plus{
+  margin-left: 210px;
+  font-size: 20px;
+  opacity: 0.5;
+}
