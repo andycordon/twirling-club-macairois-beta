@@ -622,3 +622,39 @@ footer li a {
   font-size: 20px;
   opacity: 0.5;
 }
+
+
+/*A la une*/
+#a-la-une img{
+  border: none;
+  border-radius: 0 0 17px 17px;
+  margin: 0px 0 -4px 0px;
+  padding: 0px;
+}
+#a-la-une a{
+  color: #fff;
+  transform: scale(1);
+}
+
+.card {
+  margin: 20px 10px;
+  border-radius:20px;
+  border: 3px solid #fff;
+}
+
+.card:hover{
+  transition: all 400ms ease-out;
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+
+.button-article {
+  margin: -55px 0px 0px 180px;
+  position: absolute;
+  background-color: #e61652;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  width: 150px;
+  padding: 10px 0;
+  opacity: 0.8;
+}
