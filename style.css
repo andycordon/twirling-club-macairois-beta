@@ -626,44 +626,46 @@ footer li a {
 
 /*A la une*/
 #a-la-une img{
-  border: none;
+  border: 1px solid #fff;
   border-radius: 20px;
-  padding: 10px;
+  padding: 0px;
+  margin:  10px;
+  width: 320px;
 }
 
 #a-la-une a{
   color: #fff;
   transform: scale(1);
 }
-
-.card {
+#a-la-une .card {
   width: 340px;
   margin: 10px auto 40px auto;
   padding: 0 0 10px 0;
-  border-radius:20px;
+  border-radius:25px;
   border: 1px solid #fff;
 }
 
-.card:hover{
+#a-la-une .card:hover{
   transition: all 400ms ease-out;
   transform: scale(1.05);
   opacity: 0.8;
 }
 
-.card h3{
-  margin: 10px 0 0 0;
+#a-la-une .card h3{
+  margin: 20px 0 0 0;
 }
 
-.button-article {
+#a-la-une .button-article {
   position: relative;
   background-color: #e61652;
   border: 1px solid #fff;
-  border-radius: 10px 0 10px 0;
+  border-radius: 20px 0 20px 0;
   width: 45%;
   padding: 10px 0;
-  margin: -56px 0 0px 176px;
+  margin: -56px 0 0px 177px;
 }
 
+/*Article*/
 #article{
   margin: 0 10px;
 }
