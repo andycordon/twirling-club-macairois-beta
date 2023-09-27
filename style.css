@@ -628,9 +628,7 @@ footer li a {
 #a-la-une img{
   border: none;
   border-radius: 20px;
-padding: 10px;
-margin: 0px;
-z-index: 1;
+  padding: 10px;
 }
 
 #a-la-une a{
@@ -639,7 +637,8 @@ z-index: 1;
 }
 
 .card {
-  margin: 20px 10px;
+  width: 340px;
+  margin: 10px auto 40px auto;
   padding: 0 0 10px 0;
   border-radius:20px;
   border: 1px solid #fff;
@@ -662,5 +661,30 @@ z-index: 1;
   border-radius: 10px 0 10px 0;
   width: 45%;
   padding: 10px 0;
-  margin: -56px 0 0px 159px;
+  margin: -56px 0 0px 176px;
+}
+
+#article{
+  margin: 0 10px;
+}
+#article h1 {
+  padding: 100px 0 0 0;  
+  text-transform: uppercase;
+}
+#article img {
+  margin: 10px 0px;
+}
+#article h3 {
+  margin: 20px 0 0 0;
+}
+#article a p {
+  color: #fff;
+  text-decoration:underline;
+}
+#article a p:hover {
+  color:#e61652;
+  transition: all 400ms ease-out;
+}
+#article .buttonPlus {
+  margin:20px 0 0 0px;
 }
