@@ -182,10 +182,10 @@ header a p {
 }
 .baton {
   animation: rotate 900ms linear infinite;
-  width: 30%;
+  width: 32%;
   position: absolute;
-  top: 120px;
-  left: 30px;
+  top: 90px;
+  left: 28px;
 }
 @keyframes rotate {
   to {
@@ -254,8 +254,8 @@ header a p {
 color: #fff;
 }
 .img-twirleuse {
-  width: 50%;
-  margin: 40px 0 20px 0;
+  width: 70%;
+  margin: 20px 0;
   animation: incline 3000ms linear infinite;
 }
 @keyframes incline {
@@ -270,7 +270,7 @@ color: #fff;
   }
   .baton-twirleuse {
     animation: rotation 400ms linear infinite;
-  width: 16%;
+  width: 18%;
 }
 @keyframes rotation {
   to {
@@ -279,7 +279,7 @@ color: #fff;
 }
 .elevation-baton {
   position: absolute;
-  margin:25px 0px 0px -190px;
+  margin:-25px 0px 0px -180px;
   animation: elevation 1500ms alternate infinite;
 }
 @keyframes elevation {
@@ -402,12 +402,12 @@ footer li a {
 }
 #contact .elevation-baton {
   position: absolute;
-  margin:5px 0px 0px -190px;
+  margin:-24px 0px 0px -180px;
   animation: elevation-contact 1500ms alternate infinite;
 }
 @keyframes elevation-contact {
   to {
-    margin-top: -340px;
+    margin-top: -350px;
   }
 }
 
