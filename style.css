@@ -182,10 +182,10 @@ header a p {
 }
 .baton {
   animation: rotate 900ms linear infinite;
-  width: 32%;
+  width: 35%;
   position: absolute;
-  top: 90px;
-  left: 28px;
+  top: 84px;
+  left: 23px;
 }
 @keyframes rotate {
   to {
@@ -270,7 +270,7 @@ color: #fff;
   }
   .baton-twirleuse {
     animation: rotation 400ms linear infinite;
-  width: 18%;
+  width: 20%;
 }
 @keyframes rotation {
   to {
@@ -279,7 +279,7 @@ color: #fff;
 }
 .elevation-baton {
   position: absolute;
-  margin:-25px 0px 0px -180px;
+  margin:-25px 0px 0px -175px;
   animation: elevation 1500ms alternate infinite;
 }
 @keyframes elevation {
