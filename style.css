@@ -693,3 +693,20 @@ footer li a {
 #article .buttonPlus {
   margin:20px 0 0 0px;
 }
+
+.no-flip-card {
+  display: flex;
+  background-color: #fff;
+  color: #030303;
+  width: 1000px;
+  border-radius: 25px;
+}
+.no-flip-card-inner{
+  width: 320px;
+  height: 320px;
+  border: 1px red solid;
+  margin: 10px;
+}
+.no-flip-card-inner img{
+
+}
