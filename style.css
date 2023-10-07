@@ -415,33 +415,68 @@ footer li a {
 #entrainements h1 {
   padding: 100px 0 0 0;  
 }
-#entrainements a {
-  color:white;
+#entrainements h2{
+  margin:20px 0 20px 0;
 }
-#entrainements a:hover {
-  transition: all 400ms ease-out;
-  color: #e6dbc6;
+#entrainements .carousel-items {
+  padding: 0;
+  margin: -20px 0 0px 0;
 }
-#entrainements h3 {
-  margin:10px 0 0 0;
+#entrainements .no-flip-card {
+  display: flex;
+  color: #fff;
+  border: #fff 1px solid;
+  border-radius: 25px;
 }
-#entrainements p {
-  margin: 10px 0;
+#entrainements .no-flip-card-inner{
+  width: 320px;
+  height: 320px;
+  border: 1px #fff solid;
+  border-radius: 20px;
+  background: linear-gradient(320deg, #e6dbc6 60%, #e61652);  color: #030303;
+  margin: 5px;
 }
-#entrainements img {
-  margin: 5px 0;
+#entrainements .no-flip-card a:hover{
+  transition: all 1400ms ease-out;
+  background:#030303;
+  color: #fff;
+}
+#entrainements .no-flip-card-inner-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#entrainements .no-flip-card-inner-img img{
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+}
+#entrainements .no-flip-card-inner h3{
+  margin: 60px 0;
+}
+.fa-circle-arrow-right{
+  font-size: 30px;
+  position: relative;
+  margin: 20px 0 0 260px;
+}
+#entrainements .no-flip-card-inner iframe{
+  border:1px solid #030303;
+  border-radius: 0 0 20px 20px;
+  margin: 10px 0px 0px 0;
+  padding: 0;
+}
+#entrainements .no-flip-card-inner p {
+  margin-top: 20px;
 }
 
-
-/*À la une*/
-#a-la-une h1 {
-  padding: 100px 0 0 0;  
-}
 
 /*Boutique*/
 #boutique h1 {
   padding: 100px 0 0 0;  
 }
+
 
 /*Degrés*/
 #degres h1 {
@@ -465,7 +500,6 @@ footer li a {
   padding: 10px;
   background-color:#e61652;
 }
-
 /*Degrés détaillé*/
 #degres-details h1 {
   padding: 100px 0 10px 0;  
@@ -477,7 +511,6 @@ footer li a {
 #degres-details h2:hover {
   color: #e6dbc6;
 }
-
 #degres-details article {
   border: 1px solid #e6dbc6;
   background-color: #e6dbc6;
@@ -494,7 +527,6 @@ footer li a {
 #degres-details .buttonPlus{
   margin:30px 0;
 }
-
 /*Degrés détaillé série*/
 #degres-details-serie h1 {
   padding: 100px 0 0 0;  
@@ -508,7 +540,6 @@ footer li a {
   justify-content: center;
   margin: -25px 0 30px 0;
 }
-
 #degres-details-serie div{
   width: 30%;
   margin: 5px;
@@ -527,7 +558,6 @@ footer li a {
 #infos h1 {
   padding: 100px 0 0 0;  
 }
-
 
 
 /*Club*/
@@ -616,7 +646,6 @@ footer li a {
 .pol6{
   transform: rotate(-4deg);
 }
-
 .fa-circle-plus{
   margin-left: 210px;
   font-size: 20px;
@@ -628,6 +657,10 @@ footer li a {
 
 
 /*A la une*/
+/*À la une*/
+#a-la-une h1 {
+  padding: 100px 0 0 0;  
+}
 #a-la-une img{
   border: 1px solid #fff;
   border-radius: 20px;
@@ -635,7 +668,6 @@ footer li a {
   margin:  10px;
   width: 320px;
 }
-
 #a-la-une a{
   color: #fff;
   transform: scale(1);
@@ -657,7 +689,6 @@ footer li a {
 #a-la-une .card h3{
   margin: 20px 0 0 0;
 }
-
 #a-la-une .button-article {
   position: relative;
   background-color: #e61652;
@@ -667,6 +698,7 @@ footer li a {
   padding: 10px 0;
   margin: -56px 0 0px 177px;
 }
+
 
 /*Article*/
 #article{
@@ -692,21 +724,4 @@ footer li a {
 }
 #article .buttonPlus {
   margin:20px 0 0 0px;
-}
-
-.no-flip-card {
-  display: flex;
-  background-color: #fff;
-  color: #030303;
-  width: 1000px;
-  border-radius: 25px;
-}
-.no-flip-card-inner{
-  width: 320px;
-  height: 320px;
-  border: 1px red solid;
-  margin: 10px;
-}
-.no-flip-card-inner img{
-
 }
