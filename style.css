@@ -371,9 +371,6 @@ footer li a {
 }
 
 
-
-
-
 /*Contact*/
 #contact h1 {
     padding: 100px 0 0 0;  
@@ -610,7 +607,7 @@ footer li a {
   padding: 100px 0 0 0;  
 }
 /*Club carousel*/
-.carousel-item {
+#club .carousel-item {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 450px;
@@ -618,27 +615,27 @@ footer li a {
   margin: 20px 0 20px 15px;
   scroll-snap-align: start;
 }
-.carousel-items {
+#club .carousel-items {
   display: flex;
   overflow-x: scroll;
   padding: 20px 0;
 }
-.carousel img {
+#club .carousel img {
   width:100%
 }
-.fa-reply{
+#club .fa-reply{
   color: #000;
   font-size: 30px;
   margin: 0px 0px 0 180px;
 }
 /*flip card + polaroid*/
-.flip-card {
+#club .flip-card {
   background-color: transparent;
   width: 250px;
   height: 320px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
-.flip-card-inner {
+#club .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -646,26 +643,26 @@ footer li a {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-.flip-card:hover .flip-card-inner {
+#club .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-.flip-card-front img {
+#club .flip-card-front img {
   width: 100%;
 }
-.flip-card-front, .flip-card-back {
+#club .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
-.flip-card-front {
+#club .flip-card-front {
   background: #fff;
   color: #000;
   padding: 10px;
   box-shadow: -1px 3px 5px #818181;
 }
-.flip-card-back {
+#club .flip-card-back {
   background-color: #fff;
   color: #000;
   transform: rotateY(180deg);
@@ -673,35 +670,38 @@ footer li a {
   box-shadow: -1px 3px 5px #818181;
 }
 /*Club inclinaison polaroid*/
-.pol1{
+#club .pol1{
   transform: rotate(-3deg);
 }
-.pol2{
+#club .pol2{
   transform: rotate(4deg);
 }
-.pol3{
+#club .pol3{
   transform: rotate(-6deg);
 }
-.pol4{
+#club .pol4{
   transform: rotate(5deg);
 }
-.pol5{
+#club .pol5{
   transform: rotate(6deg);
 }
-.pol6{
+#club .pol6{
   transform: rotate(-4deg);
 }
-.fa-circle-plus{
+#club .fa-circle-plus{
   margin-left: 210px;
   font-size: 20px;
   opacity: 0.5;
 }
-.club-ancre{
+#club .club-ancre{
   color: #e61652;
+}
+#club .club-ancre:hover{
+  opacity: 0.5;
+  transition: all 400ms ease-in;
 }
 
 
-/*A la une*/
 /*À la une*/
 #a-la-une h1 {
   padding: 100px 0 0 0;  
@@ -769,4 +769,121 @@ footer li a {
 }
 #article .buttonPlus {
   margin:20px 0 0 0px;
+}
+
+
+
+
+
+#boutique h2{
+  margin: 0 0 -20px 0;
+}
+.boutique-menu{
+  margin: 30px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.boutique-ancre{
+  font-size: 22px;
+  color: #030303;
+  background-color: #e6dbc6;
+  margin: 5px;
+  padding: 10px 5px;
+  width: 165px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-shadow: -1px 3px 5px #818181;
+}
+.boutique-ancre:hover{
+  color: #e6dbc6;
+  background-color: #e61652;
+  transition: all 400ms ease-in;
+  box-shadow: none;
+  border: 1px solid #030303;
+  
+}
+
+/*Club carousel*/
+.carousel-item {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 450px;
+  flex: 1 0 250px;
+  margin: 20px 0 20px 15px;
+  scroll-snap-align: start;
+}
+.carousel-items {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 380px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front img {
+  width: 299px;
+  padding: 0px;
+  border: none;
+  border-radius: 20px 20px 0 0;
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: #fff;
+  color: #000;
+  padding: 0px;
+  box-shadow: -1px 3px 5px #818181;
+}
+.flip-card-back {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #000;
+  transform: rotateY(180deg);
+  box-shadow: -1px 3px 5px #818181;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+}
+.fa-circle-plus{
+  position: absolute;
+  margin: -25px 0 0px 115px;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+#boutique .flip-card-back a {
+  color: #030303;
+}
+#boutique .flip-card-front h3 {
+  margin: 10px 5px;
+}
+#boutique .flip-card-back .boutique-descriptif {
+  margin: 10px 5px;
+}
+#boutique .flip-card-back .boutique-contact {
+  background-color: #e6dbc6;
+  border-radius: 20px 20px 0 0;
+  padding: 10px 0;
 }
