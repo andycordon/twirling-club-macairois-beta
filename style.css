@@ -898,3 +898,15 @@ footer li a {
   border-radius: 20px 20px 0 0;
   padding: 10px 0;
 }
+
+#boutique .link-description {
+  color: #e61652;
+  margin: 5px 0;
+  text-decoration: underline 2px;
+}
+#boutique .link-description:hover {
+  transition: all 400ms ease-out;
+  opacity: 0.6;
+  text-decoration: none;
+
+}
