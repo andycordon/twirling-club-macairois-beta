@@ -286,18 +286,23 @@ header a p {
       margin-top: -450px;
     }
   }
-  /* Section 7 NOS PARTENAIRE mobile*/
-  #section7 h1 {
-    margin:40px 0 0px 0;
+
+  #section7{
+    margin: 90px 0 0px 0;
   }
-  #section7 .logos {
+
+  /* Section 8 NOS PARTENAIRE mobile*/
+  #section8 h1 {
+    margin:90px 0 0px 0;
+  }
+  #section8 .logos {
     overflow: hidden;
     padding: 20px 0;
     white-space: nowrap;
     position: relative;
   }
   
-  #section7 .logos:before,
+  #section8 .logos:before,
   .logos:after {
     position: absolute;
     top: 0;
@@ -305,16 +310,16 @@ header a p {
     z-index: 2;
   }
   
-  #section7 .logos:hover .logos-slide {
+  #section8 .logos:hover .logos-slide {
     animation-play-state: paused;
   }
   
-  #section7 .logos-slide {
+  #section8 .logos-slide {
     display: inline-block;
     animation: 10000ms slide infinite linear;
   }
   
-  #section7 .logos-slide img {
+  #section8 .logos-slide img {
     height: 160px;
     margin: 20px 10px;
     padding: 5px;
