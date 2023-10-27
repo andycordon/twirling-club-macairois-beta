@@ -239,9 +239,13 @@ header a p {
 #section5 h1 {
   margin: 90px 0 0px 0;
 }
+/* Section 6 INFOS PRATIQUES mobile*/
+#section6 h1 {
+  margin: 90px 0 0px 0;
+}
 
 /* Section 6 CONTACT mobile*/
-#section6 h1{
+#section7 h1{
     margin: 90px 0 30px 0;
   }
   .fa-phone, .fa-location-dot, .fa-envelope{
@@ -249,7 +253,7 @@ header a p {
     margin: 30px 0px 10px 0;
     font-size: 22px;
   }
-#section6 a{
+#section7 a{
   color: #fff;
 }
 .img-twirleuse {
@@ -293,7 +297,7 @@ header a p {
 
   /* Section 8 NOS PARTENAIRE mobile*/
   #section8 h1 {
-    margin:90px 0 0px 0;
+    margin:40px 0 0px 0;
   }
   #section8 .logos {
     overflow: hidden;
