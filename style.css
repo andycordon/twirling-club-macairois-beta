@@ -733,7 +733,7 @@ footer li a {
 #entrainements .carousel-items {
   display: flex;
   overflow-x: scroll;
-  padding: 20px0;
+  padding: 20px;
 }
 #entrainements .no-flip-card {
   display: flex;
