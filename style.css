@@ -240,18 +240,17 @@ header a p {
   margin: 90px 0 0px 0;
 }
 
-
 /* Section 6 CONTACT mobile*/
 #section6 h1{
     margin: 90px 0 30px 0;
   }
-.fa-phone, .fa-location-dot, .fa-envelope{
+  .fa-phone, .fa-location-dot, .fa-envelope{
     color: #e61652;
     margin: 30px 0px 10px 0;
     font-size: 22px;
   }
 #section6 a{
-color: #fff;
+  color: #fff;
 }
 .img-twirleuse {
   width: 70%;
@@ -262,31 +261,35 @@ color: #fff;
   to {
     transform: rotate(0deg);
   }
-    25%{
-    }
+  25%{
+  }
     from {
       transform: rotate(10deg);
     }
   }
   .baton-twirleuse {
     animation: rotation 400ms linear infinite;
-  width: 20%;
-}
-@keyframes rotation {
-  to {
-    transform: rotate(360deg);
+    width: 20%;
   }
-}
-.elevation-baton {
-  position: absolute;
-  margin:-25px 0px 0px -175px;
-  animation: elevation 1500ms alternate infinite;
-}
-@keyframes elevation {
-  to {
-    margin-top: -450px;
+  @keyframes rotation {
+    to {
+      transform: rotate(360deg);
+    }
   }
-}
+  .elevation-baton {
+    position: absolute;
+    margin:-25px 0px 0px -175px;
+    animation: elevation 1500ms alternate infinite;
+  }
+  @keyframes elevation {
+    to {
+      margin-top: -450px;
+    }
+  }
+  /* Section 7 NOS PARTENAIRE mobile*/
+  #section7 h1 {
+    margin:40px 0 0px 0;
+  }
 
 /* Footer mobile*/
 footer {
@@ -909,4 +912,48 @@ footer li a {
   opacity: 0.6;
   text-decoration: none;
 
+}
+
+
+
+
+
+.logos {
+  overflow: hidden;
+  padding: 20px 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  content: "";
+  z-index: 2;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 160px;
+  margin: 20px 10px;
+  padding: 5px;
+  border-radius: 100%;
+  border: 3px solid #e6dbc6;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
