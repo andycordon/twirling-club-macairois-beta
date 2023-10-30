@@ -952,4 +952,44 @@ footer li a {
 #infos h1 {
   padding: 100px 0 0 0;  
 }
+#infos h2 {
+  padding: 0 0 20px 0;  
+}
 
+
+
+details {
+  color: #fff;
+  border-bottom: 1px solid #e6dbc6;
+  padding: 10px 0;
+}
+
+summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary:after {
+  content: "\002B";
+  font-size: 22px;
+}
+details[open] summary {
+  border: 1px solid #e6dbc6;
+  border-radius: 15px 15px 0 0;
+  padding: 4px 10px 4px 10px;
+}
+details[open] summary:after {
+  content: "\00D7";
+  font-size: 22px;
+}
+.reponse {
+  padding: 10px 5px;
+  background-color: #e6dbc6;
+  color: #030303;
+  border-radius: 0 0 15px 15px;
+}
