@@ -1,3 +1,14 @@
+/* couleur surlignage texte*/
+/* pour Firefox */
+::-moz-selection {
+  background-color:#e61652;
+  color: #e6dbc6;
+ }
+ /* pour Safari et Chrome */
+ ::selection {
+  background-color:#e61652;
+  color: #e6dbc6; }	
+
 /*Bouton du menu ouvert-fermé*/
 #check {
   display: none;
@@ -961,9 +972,8 @@ footer li a {
 details {
   color: #fff;
   border-bottom: 1px solid #e6dbc6;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
-
 summary {
   list-style: none;
   display: flex;
@@ -977,19 +987,25 @@ summary::-webkit-details-marker {
 summary:after {
   content: "\002B";
   font-size: 22px;
+  padding: 5px;
 }
 details[open] summary {
   border: 1px solid #e6dbc6;
   border-radius: 15px 15px 0 0;
-  padding: 4px 10px 4px 10px;
 }
 details[open] summary:after {
   content: "\00D7";
   font-size: 22px;
+  padding: 5px;
 }
 .reponse {
   padding: 10px 5px;
   background-color: #e6dbc6;
   color: #030303;
   border-radius: 0 0 15px 15px;
-}
+}	
+
+
+
+
+
