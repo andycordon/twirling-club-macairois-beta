@@ -1025,13 +1025,13 @@ details[open] summary ~ *, details[open] summary:after {
   0%    {opacity: 0}
   100%  {opacity: 1}
 }
-details summary:after {
+/* details summary:after {
   animation: sweepreduc 400ms ease-in-out;
 }
 @keyframes sweepreduc {
   0%    {opacity: 0}
   100%  {opacity: 1}
-}
+} */
 
 
 
