@@ -144,7 +144,7 @@ section{
 }
 
 article {
-  margin: 30px 0;
+  margin: 30px 5px;
 }
 article img {
   width:100%;
@@ -451,7 +451,7 @@ footer li a {
 #club .carousel-items {
   display: flex;
   overflow-x: scroll;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 #club .carousel img {
   width:100%
@@ -543,7 +543,7 @@ footer li a {
   border: 1px solid #fff;
   border-radius: 20px;
   padding: 0px;
-  margin:  10px;
+  margin:  0 0 10px 0;
   width: 320px;
 }
 #a-la-une a{
@@ -622,7 +622,7 @@ footer li a {
   background-color: #e6dbc6;
   margin: 5px;
   padding: 10px 5px;
-  width: 165px;
+  width: 150px;
   border-radius: 20px;
   border: 1px solid #fff;
   box-shadow: -1px 3px 5px #818181;
@@ -641,13 +641,13 @@ footer li a {
   flex-shrink: 0;
   flex-basis: 450px;
   flex: 1 0 250px;
-  margin: 20px 0 20px 15px;
+  margin: 20px 15px 20px 0px;
   scroll-snap-align: start;
 }
 #boutique .carousel-items {
   display: flex;
   overflow-x: scroll;
-  padding: 20px 0;
+  padding: 20px 0 20px 5px;
 }
 #boutique .flip-card {
   background-color: transparent;
@@ -742,13 +742,13 @@ footer li a {
   flex-shrink: 0;
   flex-basis: 450px;
   flex: 1 0 250px;
-  margin: -20px 0 10px 5px;
+  margin: -20px 0 10px 0px;
   scroll-snap-align: start;
 }
 #entrainements .carousel-items {
   display: flex;
   overflow-x: scroll;
-  padding: 20px;
+  padding: 20px 5px;
 }
 #entrainements .no-flip-card {
   display: flex;
@@ -835,8 +835,8 @@ footer li a {
   margin: 20px 0 0 260px;
 }
 #entrainements .no-flip-card-inner iframe{
-  border:1px solid #030303;
-  border-radius: 0 0 20px 20px;
+  border:none;
+  border-radius: 0 0 19px 19px;
   margin: 10px 0px 0px 0;
   padding: 0;
 }
@@ -858,6 +858,7 @@ footer li a {
 #degres img{
   box-shadow: -1px 3px 5px #818181;
   border-radius: 100%;
+  width: 70%;
 }
 #degres img:hover {
   transform: rotate(360deg);
@@ -883,7 +884,7 @@ footer li a {
   background-color: #e6dbc6;
   border-radius: 20px;
   box-shadow: -1px 3px 5px #818181;
-  margin: 20px 0;
+  margin: 20px 5px;
 }
 #degres-details article:hover {
   background-color: #030303;
@@ -983,6 +984,7 @@ summary {
   align-items: center;
   cursor: pointer;
   padding: 5px 10px;
+  border-top: 1px solid #030303;
 }
 summary::-webkit-details-marker {
   display: none;
@@ -1020,7 +1022,7 @@ details[open] summary ~ *, details[open] summary:after {
   100%  {opacity: 1}
 }
 details summary:after {
-  animation: sweepreduc 800ms ease-in-out;
+  animation: sweepreduc 400ms ease-in-out;
 }
 @keyframes sweepreduc {
   0%    {opacity: 0}
