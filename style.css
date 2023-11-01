@@ -182,6 +182,10 @@ header a p {
   color: #fff;
 }
 
+a:active {
+  background-color: transparent;
+}
+
 /* Section 1 ACCUEIL mobile*/
 #section1 {
   height: 100vh;
