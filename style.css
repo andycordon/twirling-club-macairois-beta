@@ -1016,7 +1016,6 @@ padding: 0 0 5px 0;
 #infos a {
   color: #e61652;
 }
-#infos .cite {
+#infos .cite, #infos .pdf {
   margin: 0px 0 20px 0;
 }
-
