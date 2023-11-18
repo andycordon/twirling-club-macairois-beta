@@ -301,10 +301,12 @@ header a p {
     margin:40px 0 0px 0;
   }
   #section8 .logos {
-    overflow: hidden;
     padding: 20px 0;
     white-space: nowrap;
     position: relative;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Pour le support tactile sur iOS */
   }
   
   #section8 .logos:before,
