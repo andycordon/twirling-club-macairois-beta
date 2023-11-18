@@ -1,17 +1,3 @@
-/* couleur surlignage texte*/
-/* pour Firefox */
-a:active {
-  background-color: #e61652;
-}
-::-moz-selection {
-  background-color:#e61652;
-  color: #e6dbc6;
- }
- /* pour Safari et Chrome */
- ::selection {
-  background-color:#e61652;
-  color: #e6dbc6; }	
-
 /*Bouton du menu ouvert-fermé*/
 #check {
   display: none;
