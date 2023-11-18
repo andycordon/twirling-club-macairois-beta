@@ -1,5 +1,8 @@
 /* couleur surlignage texte*/
 /* pour Firefox */
+a:active {
+  background-color: #e61652;
+}
 ::-moz-selection {
   background-color:#e61652;
   color: #e6dbc6;
@@ -967,70 +970,63 @@ footer li a {
 }
 #infos h2 {
   padding: 0 0 20px 0;  
+    border-bottom: 1px solid #e6dbc6;
 }
 
 
 
-details {
+#infos details {
   color: #fff;
   border-bottom: 1px solid #e6dbc6;
-  padding: 10px 5px;
+  padding: 10px 0px 10px 10px;
+  text-align: left;
 }
-summary {
-  list-style: none;
+#infos summary {
   display: flex;
-  text-align: center;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
   align-items: center;
+  list-style: none;
   cursor: pointer;
   padding: 5px 10px;
   border-top: 1px solid #030303;
-}
-summary::-webkit-details-marker {
-  display: none;
-}
-summary:after {
-  justify-content: center;
-  text-align: center;
-  content: "\002B";
   font-size: 18px;
+}
+#infos summary:after {
+  content: "\002B";
   padding: 3px 8px;
-  margin: 5px 0 5px 5px ;
+  margin: 5px 10px;
   border-radius: 20px;
   background-color: #e61652;
   color: #e6dbc6;
   border: 1px solid #e6dbc6;
 }
-details[open] summary {
+#infos details[open] summary {
   border: 1px solid #e6dbc6;
   border-radius: 15px 15px 0 0;
 }
-details[open] summary:after {
+#infos details[open] summary:after {
   content: "\00D7";
 }
-.reponse {
-  padding: 10px 5px;
+#infos .reponse {
+  text-align: left;
+  padding: 10px;
   background-color: #e6dbc6;
   color: #030303;
   border-radius: 0 0 15px 15px;
 }	
-details[open] summary ~ * /*, details[open] summary:after*/ {
+#infos details[open] summary ~ * /*, details[open] summary:after*/ {
   animation: sweep 800ms ease-in-out;
 }
 @keyframes sweep {
   0%    {opacity: 0}
   100%  {opacity: 1}
 }
-/* details summary:after {
-  animation: sweepreduc 400ms ease-in-out;
-}
-@keyframes sweepreduc {
-  0%    {opacity: 0}
-  100%  {opacity: 1}
-} */
 
-a:active {
-  background-color: #e61652;
+#infos .reponse p {
+padding: 0 0 5px 0;
+}
+
+#infos article {
+  margin: 30px 0 80px 0;
 }
 
