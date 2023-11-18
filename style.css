@@ -975,6 +975,8 @@ footer li a {
   cursor: pointer;
   padding: 5px 10px;
   border-top: 1px solid #030303;
+  border-left: 1px solid #030303;
+  border-right: 1px solid #030303;
   font-size: 18px;
 }
 #infos summary:after {
@@ -987,7 +989,9 @@ footer li a {
   border: 1px solid #e6dbc6;
 }
 #infos details[open] summary {
-  border: 1px solid #e6dbc6;
+  border-top: 1px solid #e6dbc6;
+  border-left: 1px solid #e6dbc6;
+  border-right: 1px solid #e6dbc6;
   border-radius: 15px 15px 0 0;
 }
 #infos details[open] summary:after {
@@ -1000,7 +1004,7 @@ footer li a {
   color: #030303;
   border-radius: 0 0 15px 15px;
 }	
-#infos details[open] summary ~ * /*, details[open] summary:after*/ {
+#infos details[open] summary ~ * , details[open] summary:after {
   animation: sweep 800ms ease-in-out;
 }
 @keyframes sweep {
