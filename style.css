@@ -980,7 +980,7 @@ footer li a {
 #infos summary:after {
   content: "\002B";
   padding: 3px 8px;
-  margin: 5px 10px;
+  margin: 5px 0px;
   border-radius: 20px;
   background-color: #e61652;
   color: #e6dbc6;
