@@ -403,7 +403,7 @@ footer li a {
   transition: transform 0.3s ease;
   position: relative;
   overflow: hidden;
-  box-shadow: -1px 3px 5px #818181;
+  box-shadow: -1px 3px 5px #ffffff;
 }
 .buttonPlus:hover {
   animation: bounce 500ms;
