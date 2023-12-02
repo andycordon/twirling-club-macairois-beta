@@ -894,15 +894,21 @@ footer li a {
 #degres-details-serie .buttonPlus{
   margin:0 0 30px 0;
 }
-#degres-details-serie .descriptifs{
+
+#degres-details-serie h3 {
+  margin: -30px 0 0px 0;
+}
+#degres-details-serie .descriptifs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: -25px 0 30px 0;
+  margin: 0px 0 30px 0;
+  width: 100%;
 }
 #degres-details-serie div{
   width: 30%;
   margin: 5px;
+  padding: 0;
 }
 #degres-details-serie div img{
   border: 1px solid #e6dbc6;
