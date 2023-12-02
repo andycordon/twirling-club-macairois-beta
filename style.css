@@ -407,7 +407,6 @@ footer li a {
 }
 .buttonPlus:hover {
   animation: bounce 500ms;
-  background-color: #bf0b40;
   box-shadow: none;
 }
 @keyframes bounce {
