@@ -55,7 +55,7 @@ nav {
 }
 #check:checked ~ nav {
   background-color: #030303;
-  height: 386px;
+  height: 338px;
 }
 nav a {
   text-decoration: none;
