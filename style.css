@@ -228,11 +228,17 @@ header a p {
 #section2 p {
   margin: 10px 0;
 }
+#section2 .buttonPlus {
+  margin: 20px 0;
+}
 
 
 /* Section 3 A LA UNE mobile */
 #section3{
   margin: 90px 0 0px 0;
+}
+#section3 .buttonPlus {
+  margin: 20px 0;
 }
 
 
@@ -240,15 +246,24 @@ header a p {
 #section4 {
   margin: 90px 0 0 0;
 }
+#section4 .buttonPlus {
+  margin: 20px 0;
+}
 
 
 /* Section 5 LES ENTRAINEMENTS mobile*/
 #section5 h1 {
   margin: 90px 0 0px 0;
 }
+#section5 .buttonPlus {
+  margin: 20px 0;
+}
 /* Section 6 INFOS PRATIQUES mobile*/
 #section6 h1 {
   margin: 90px 0 0px 0;
+}
+#section6 .buttonPlus {
+  margin: 20px 0;
 }
 
 /* Section 6 CONTACT mobile*/
@@ -1053,15 +1068,7 @@ padding: 0 0 5px 0;
     margin: 5px 0;
   }
   
-  body {
-    font-family: Arial Rounded MT Bold;
-    max-width: 1440px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #030303;
-    color: #fff;
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-  }
+
   section{
     padding: 0px 5px;
   }
@@ -1129,8 +1136,29 @@ padding: 0 0 5px 0;
     padding: 10px 0 5px 0;
     margin: 20px auto 0 auto;
   }
+  
+  #section2 article{
+    display: grid;
+    grid-gap: 10px;
+  }
+  #section2 article img {
+    grid-column:1/1;
+    grid-row: 1/5;
+  }
+  #section2 article h2 {
+    grid-column:2;
+    grid-row: 1;
+  }
+  #section2 article .txt1 {
+    grid-column:2;
+    grid-row: 2;
+  }
+  #section2 article .txt2 {
+    grid-column:2;
+    grid-row: 3;
+  }
+  
 }
-
 /*Desktop style*/
 
 @media (min-width: 1024px) {
