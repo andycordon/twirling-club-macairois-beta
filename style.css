@@ -56,6 +56,7 @@ nav {
 #check:checked ~ nav {
   background-color: #030303;
   height: 338px;
+  
 }
 nav a {
   text-decoration: none;
@@ -94,7 +95,6 @@ iframe {
   padding: 5px;
   margin: 5px 0;
 }
-
 
 /*Mobile style*/
 
@@ -1036,98 +1036,14 @@ padding: 0 0 5px 0;
 }
 
 
+
+
+
+
 /*Tab style*/
 
 @media (min-width: 768px) {
 
-  @font-face {
-    font-family: 'Arial Rounded MT Bold';
-    src: url('https://fonts.cdnfonts.com/css/arial-rounded-mt-bold') format('woff');
-    font-display: swap;
-  }
-  /*Bouton du menu ouvert-fermé*/
-  #check {
-    display: none;
-  }
-  .buttonMenu {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(to top right, #e61652, 80%, #e6dbc6);
-    padding: 12px;
-    display: inline-block;
-    cursor: pointer;
-    transition: all 0.2s ease-in;
-    padding-top: 8px;
-    line-height: 8px;
-    z-index: 201;
-    border: 1px solid #e6dbc6;
-    border-radius: 20px;
-    box-shadow: -1px 3px 5px #818181;
-  }
-  .buttonMenu span {
-    height: 3px;
-    width: 100%;
-    background: white;
-    display: inline-block;
-    transition: all 0.5s cubic-bezier(0.62, 0.43, 0.35, 1.47);
-  }
-  #check:checked ~ .buttonMenu span:nth-child(1) {
-    width: 100%;
-    transform: rotate(45deg) translateY(6px) translateX(6px);
-  }
-  #check:checked ~ .buttonMenu span:nth-child(2) {
-    width: 0;
-  }
-  #check:checked ~ .buttonMenu span:nth-child(3) {
-    width: 100%;
-    transform: rotate(-45deg) translateY(-7px) translateX(7px);
-  }
-  nav {
-    transition: all 0.4s ease;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    height: 0;
-    padding: 0 5px;
-    border-radius: 0 0 20px 20px;
-  }
-  #check:checked ~ nav {
-    background-color: #030303;
-    height: 338px;
-  }
-  nav a {
-    text-decoration: none;
-    font-size: 22px;
-    transition: all 0.4s cubic-bezier(0.22, 0.43, 0.35, 1.5);
-    opacity: 0;
-    transform: scale(0);
-    transform-origin: top;
-    width: 100%;
-    text-align: center;
-    display: block;
-  }
-  #check:checked ~ nav a {
-    border-radius: 20px;
-    background-color: #e61652;
-    color: white;
-    font-weight: 600;
-    padding: 8px;
-    opacity: 1;
-    transform: scale(1);
-    border: 1px solid #e6dbc6;
-    margin: 5px 0px;
-    
-  }
-  #check:checked ~ nav a:hover {
-    background-color: #e6dbc6;
-    color: black;
-    border: 1px solid #030303;
-  }
-  
   iframe {
     width:100%;
     height: 220px;
@@ -1137,20 +1053,6 @@ padding: 0 0 5px 0;
     margin: 5px 0;
   }
   
-  
-  /*Mobile style*/
-  
-  /*Reset et bases*/
-  *,
-  ::before,
-  ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
-  }
   body {
     font-family: Arial Rounded MT Bold;
     max-width: 1440px;
@@ -1159,22 +1061,6 @@ padding: 0 0 5px 0;
     background-color: #030303;
     color: #fff;
     font-family: 'Arial Rounded MT Bold', sans-serif;
-  }
-  h1 {
-    font-size: 28px;
-    color: #e61652;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: #e6dbc6;
-  }
-  h2 {
-    font-size: 26px;
-    color: #e6dbc6;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  p {
-    font-size: 18px;
   }
   section{
     padding: 0px 5px;
@@ -1194,63 +1080,54 @@ padding: 0 0 5px 0;
     margin: 5px 0;
   }
   
-  /* Header mobile */
+  
+  /* Header tab */
   header {
     position: relative;
   }
-  .logo {
-    width: 50px;
+  
+  /*Menu tab*/
+  nav {
+    position: relative;
+    top: 203px;
+    left: 45px;
+    width: 60%;
   }
-  header a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  header a p {
-    margin-left: 10px;
-    color: #fff;
+  nav a {
+    transform-origin: right;
   }
   
-  
-  /* Section 1 ACCUEIL mobile*/
-
+  /* Section 1 ACCUEIL tab*/
   .logoAccueil {
-    width: 50%;
-    margin-top: 20px;
+    width: 281px;
+    margin: 40px auto 0 auto;
     padding: 0 10px;
   }
   .baton {
-    animation: rotate 900ms linear infinite;
-    width: 15%;
-    position: absolute;
-    top: 58px;
-    left: 222px;
-    z-index: 1;
+    width: 100px;
+    top: 79px;
+    left: 39px;
+    
   }
-  @keyframes rotate {
-    to {
-      transform: rotate(-360deg);
-    }
+  #section1 {
+    display: grid;
+    height: 333px;
+  }
+  #section1 .logoAccueil {
+    grid-column:1/1;
+    grid-row: 1/5;
   }
   #section1 h1 {
-    margin: 30px 0 60px 0;
-    color: #fff;
-    -webkit-text-stroke: 0px;  
+    grid-column: 2/2;
+    grid-row: 2;
+    margin: 20px 0 0 0;
   }
   #section1 .buttonDecouverte {
-    background: linear-gradient(to top right, #e61652, 80%, #e6dbc6);
-    color: inherit;
-    border: 2px solid #e6dbc6;
-    box-shadow: -1px 3px 5px #818181;
-    padding: 15px 20px;
-    border-radius: 30px;
-  }
-  #section1 .buttonDecouverte:hover {
-    background: linear-gradient(to top right, #e61652, 20%, #e6dbc6);
-    color: #030303;
-    box-shadow: none;
-    border: 2px solid #030303;
-    transition: 400ms ease-out;
+    grid-column: 2/2;
+    grid-row: 3;
+    width: 50%;
+    padding: 10px 0 5px 0;
+    margin: 20px auto 0 auto;
   }
 }
 
