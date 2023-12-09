@@ -1034,3 +1034,70 @@ padding: 0 0 5px 0;
 #infos .cite, #infos .pdf {
   margin: 0px 0 20px 0;
 }
+
+
+/*Tab style*/
+
+@media (min-width: 768px) {
+
+  /*Bouton du menu ouvert-fermé*/
+#check {
+  display: none;
+}
+.buttonMenu {
+  left: 10px;
+}
+
+nav {
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  padding: 0 5px;
+  border-radius: 0 0 20px 20px;
+}
+#check:checked ~ nav {
+  background-color: #030303;
+  height: 386px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  transition: all 0.4s cubic-bezier(0.22, 0.43, 0.35, 1.5);
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: top;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+#check:checked ~ nav a {
+  border-radius: 20px;
+  background-color: #e61652;
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+  opacity: 1;
+  transform: scale(1);
+  border: 1px solid #e6dbc6;
+  margin: 5px 0px;
+  
+}
+#check:checked ~ nav a:hover {
+  background-color: #e6dbc6;
+  color: black;
+  border: 1px solid #030303;
+}
+
+}
+
+
+/*Desktop style*/
+
+@media (min-width: 1024px) {
+
+
+
+}
