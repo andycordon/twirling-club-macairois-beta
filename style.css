@@ -87,6 +87,16 @@ nav a {
   border: 1px solid #030303;
 }
 
+#check:checked ~ nav a.menu-active {
+  background-color: #030303;
+  color: #e61652;
+}
+#check:checked ~ nav a.menu-active:hover {
+  background-color: #e6dbc6;
+  color: black;
+  border: 1px solid #030303;
+}
+
 iframe {
   width:100%;
   height: 220px;
@@ -1217,7 +1227,9 @@ padding: 0 0 5px 0;
 /*Desktop style*/
 
 @media (min-width: 1024px) {
-
+#section1 {
+  height: 100vh;
+}
 
 
 }
