@@ -1108,25 +1108,41 @@ padding: 0 0 5px 0;
   }
   
   /*Tab index section*/
-  #section2 article, #section4 article, #section5 article, #section6 article{
+  #section2 article, #section5 article, #section4 article, #section6 article{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40px 1fr;
     grid-gap: 10px;
   }
-  #section2 article img, #section4 article img, #section5 article img, #section6 article img {
+  #section2 article img, #section5 article img{
     grid-column:1/1;
     grid-row: 1/5;
   }
-  #section2 article h2, #section4 article h2, #section5 article h2, #section6 article h2 {
+  #section2 article h2, #section5 article h2{
     grid-column:2;
     grid-row: 1;
   }
-  #section2 p, #section4 p, #section5 p, #section6 p {
+  #section2 p, #section5 p{
     display: flex;
     justify-content: center;
     align-items: center;
     grid-column:2;
+    grid-row: 2;
+  }
+
+  #section4 article img, #section6 article img {
+    grid-column:2/2;
+    grid-row: 1/5;
+  }
+  #section4 article h2, #section6 article h2 {
+    grid-column:1;
+    grid-row: 1;
+  }
+  #section4 p, #section6 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column:1;
     grid-row: 2;
   }
   #section2 h1{
@@ -1135,17 +1151,44 @@ padding: 0 0 5px 0;
   article {
   margin-bottom:0;  
   }
+
+  /*Tab img baton twirleuse adapté*/
   .img-twirleuse {
-    width: 281px;
+    width: 350px;
   }
   .baton-twirleuse{
-    width: 100px;
+    width: 130px;
   }
   .elevation-baton {
-    position: absolute;
-    margin:0px 0px 0px 0px;
-    animation: elevation 1500ms alternate infinite;
+    margin:-40px 0px 0px 195px;
   }
+
+#section3 article{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 10px 1fr;
+  grid-gap: 10px;
+}
+
+#section3 article img {
+  grid-column:1/1;
+  grid-row: 1/4;
+}
+#section3 article h2{
+  grid-column:2;
+  grid-row: 1;
+}
+#section3 .date-article{
+  grid-column:2;
+  grid-row: 2;
+}
+#section3 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column:2;
+  grid-row: 3;
+}
 
 }
 /*Desktop style*/
