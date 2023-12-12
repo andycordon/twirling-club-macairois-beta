@@ -1422,24 +1422,10 @@ nav a:hover {
   margin: 50px auto auto auto;
 }
 
-/* article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-} */
-
-/* article img {
-  width: 75%;
+article img {
+  width: 70%;
   margin: auto;
-} */
-/* article p {
-  margin: auto;
-  padding: 0 20px;
 }
-article h2 {
-  margin: auto;
-} */
 
 
 }
