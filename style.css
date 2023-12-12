@@ -1278,6 +1278,9 @@ padding: 0 0 5px 0;
   .elevation-baton {
     margin:-40px 0px 0px 195px;
   }
+  #contact .elevation-baton {
+    margin:-40px 0px 0px 195px;
+  }
 
   #section3 .right-article, #section3 .left-article{
     display: grid;
@@ -1323,6 +1326,11 @@ padding: 0 0 5px 0;
     grid-column:1;
     grid-row: 3;
   }
+
+  /*Margin top all page*/
+  #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #infos h1, #contact h1, #article h1  {
+    margin: -75px 0 0 0;
+  }
 }
 
 
@@ -1331,111 +1339,100 @@ padding: 0 0 5px 0;
 /*Desktop style*/
 @media (min-width: 1024px) {
 
-
-.buttonMenu {
-  display: none;
-}
-.logo {
-  width: 125px;
-  margin-left: 5px;
-}
-header {
-  position: absolute;
-  height: 150px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  border: none;
-  max-width: 1440px;
-}
-header a {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-}
-header p {
-  padding-left:200px;
-  font-size: 32px;
-  font-weight: 900;
-  color: red;
-}
-
-/*Tab barre de menu*/
-nav {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin:40px 0 0 0;
-  padding: 0;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 2;
-}
-nav a {
-  opacity: 1;
-  transform: scale(1);
-  display: block;
-  border-radius: 20px;
-  border: 1px solid #e6dbc6;
-  background-color: #e61652;
-  color: white;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 8px 0px;
-  margin: 0 5px;
-}
-nav a:hover {
-  background-color: #e6dbc6;
-  color: black;
-  border: 1px solid #e6dbc6;
-}
-.menu-active {
-  background-color: #030303;
-  color: #e61652;
-}
-
-
-
-/*Desk section 1*/
-.logoAccueil {
-  width: 450px;
-  margin:265px auto 0 auto;
-  padding: 0 10px;
-}
-.baton {
-  width: 160px;
-  top: 210px;
-  left: 65px;
-}
-.elevation-baton {
-  margin:-50px 0px 0px 320px;
-}
-#contact .elevation-baton {
-  margin:-50px 0px 0px 320px;
-}
-
-
-#section1 {
-  height: 100vh;
-}
-
-#section1 h1 {
-  margin: 200px 0 0 0;
-}
-#section1 .buttonDecouverte {
-  padding: 20px 0;
-  margin: 50px auto auto auto;
-}
-
-article img {
-  width: 70%;
-  margin: auto;
-}
-
-
+  .buttonMenu {
+    display: none;
+  }
+  .logo {
+    width: 125px;
+    margin-left: 5px;
+  }
+  header {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    max-width: 1440px;
+  }
+  header a {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  header p {
+    padding-left:200px;
+    font-size: 32px;
+    font-weight: 900;
+    color: red;
+  }
+  /*Desk barre de menu*/
+  nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:40px 0 0 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+  nav a {
+    opacity: 1;
+    transform: scale(1);
+    display: block;
+    border-radius: 20px;
+    border: 1px solid #e6dbc6;
+    background-color: #e61652;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 0px;
+    margin: 0 5px;
+  }
+  nav a:hover {
+    background-color: #e6dbc6;
+    color: black;
+    border: 1px solid #e6dbc6;
+  }
+  .menu-active {
+    background-color: #030303;
+    color: #e61652;
+  }
+  /*Desk section 1*/
+  .logoAccueil {
+    width: 450px;
+    margin:265px auto 0 auto;
+    padding: 0 10px;
+  }
+  .baton {
+    width: 160px;
+    top: 210px;
+    left: 65px;
+  }
+  .elevation-baton {
+    margin:-50px 0px 0px 320px;
+  }
+  #contact .elevation-baton {
+    margin:-50px 0px 0px 320px;
+  }
+  #section1 {
+    height: 100vh;
+  }
+  #section1 h1 {
+    margin: 200px 0 0 0;
+  }
+  #section1 .buttonDecouverte {
+    padding: 20px 0;
+    margin: 50px auto auto auto;
+  }
+  article img {
+    width: 70%;
+    margin: auto;
+  }
 }
 
