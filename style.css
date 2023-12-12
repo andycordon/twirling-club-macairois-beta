@@ -1328,6 +1328,10 @@ padding: 0 0 5px 0;
   #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #infos h1, #contact h1, #article h1  {
     margin: -75px 0 0 0;
   }
+  /*Tab Bureau h2*/
+  #club-bureau, #club-coachs, #club-licencies {
+    padding: 30px 0 0 0;
+  }
 }
 
 
@@ -1431,9 +1435,27 @@ padding: 0 0 5px 0;
     width: 70%;
     margin: auto;
   }
-    /*Margin top all page*/
-    #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #infos h1, #contact h1, #article h1  {
-      padding: 250px 0 0 0;
+  /*Desktop margin top all page*/
+  #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #infos h1, #contact h1, #article h1  {
+    padding: 250px 0 0 0;
+    margin: 0px 0 0 0;
     }
-}
+    
 
+    #club ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #club li.carousel-item {
+      margin: 20px 10px;
+      display: flex;
+      justify-content: center;
+    }
+    
+
+
+
+
+
+    
+  }
