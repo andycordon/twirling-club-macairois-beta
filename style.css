@@ -889,7 +889,7 @@ footer li a {
 }
 #entrainements .carousel-items {
   display: flex;
-  overflow-x: scroll;
+  -x: scroll;
   padding: 20px 5px;
 }
 #entrainements .no-flip-card {
@@ -1454,6 +1454,10 @@ padding: 0 0 5px 0;
     #club .carousel-items {
       overflow-x: hidden;
     }
+    #section8 .logos {
+      overflow-x: hidden;
+    }
+  
 
 
 
