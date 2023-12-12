@@ -102,6 +102,165 @@ nav a {
   border: 1px solid #030303;
 }
 
+
+/*Adaptation twirleuse + baton rotate/lancer*/
+@media (min-width: 300px) {
+  .baton {
+    animation: rotate 900ms linear infinite;
+    width: 35%;
+    position: absolute;
+    top: 93px;
+    left: 20px;
+  }
+  .elevation-baton {
+    position: absolute;
+    margin:-21px 0px 0px -147px;
+    animation: elevation 1500ms alternate infinite;
+  }
+  #contact .elevation-baton {
+    position: absolute;
+    animation: elevation-contact 1500ms alternate infinite;
+    margin:-21px 0px 0px -147px;
+  }
+}
+@media (min-width: 325px) {
+  .baton {
+    top: 89px;
+    left: 21px;
+  }
+  .elevation-baton {
+    margin:-25px 0px 0px -160px;
+  }
+  #contact .elevation-baton {
+    margin:-25px 0px 0px -160px;
+  }
+}
+@media (min-width: 350px) {
+  .baton {
+    top: 87px;
+    left: 22px;
+  }
+  .elevation-baton {
+    margin:-28px 0px 0px -172px;
+  }
+  #contact .elevation-baton {
+    margin:-28px 0px 0px -172px;
+  }
+}
+@media (min-width: 375px) {
+  .baton {
+    top: 84px;
+    left: 23px;
+  }
+  .elevation-baton {
+    margin:-31px 0px 0px -182px;
+  }
+  #contact .elevation-baton {
+    margin:-31px 0px 0px -182px;
+  }
+}
+@media (min-width: 400px) {
+  .baton {
+    top: 81px;
+    left: 24px;
+  }
+  .elevation-baton {
+    margin:-34px 0px 0px -194px;
+  }
+  #contact .elevation-baton {
+    margin:-34px 0px 0px -194px;
+  }
+}
+@media (min-width: 425px) {
+  .baton {
+    top: 78px;
+    left: 25px;
+  }
+  .elevation-baton {
+    margin:-37px 0px 0px -206px;
+  }
+  #contact .elevation-baton {
+    margin:-37px 0px 0px -206px;
+  }
+}
+@media (min-width: 450px) {
+  .baton {
+    top: 75px;
+    left: 26px;
+  }
+  .elevation-baton {
+    margin:-40px 0px 0px -218px;
+  }
+  #contact .elevation-baton {
+    margin:-40px 0px 0px -218px;
+  }
+}
+@media (min-width: 475px) {
+  .baton {
+    top: 72px;
+    left: 27px;
+  }
+  .elevation-baton {
+    margin:-43px 0px 0px -230px;
+  }
+  #contact .elevation-baton {
+    margin:-43px 0px 0px -230px;
+  }
+}
+@media (min-width: 500px) {
+  .baton {
+    top: 69px;
+    left: 28px;
+  }
+  .elevation-baton {
+    margin:-46px 0px 0px -242px;
+  }
+  #contact .elevation-baton {
+    margin:-46px 0px 0px -242px;
+  }
+}
+.img-twirleuse {
+  width: 70%;
+  margin: 20px 0;
+  animation: incline 3000ms linear infinite;
+}
+@keyframes incline {
+  to {
+    transform: rotate(0deg);
+  }
+  25%{
+  }
+    from {
+      transform: rotate(10deg);
+    }
+  }
+  .baton-twirleuse {
+    animation: rotation 400ms linear infinite;
+    width: 20%;
+  }
+  @keyframes rotation {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes elevation {
+    to {
+      margin-top: -450px;
+    }
+  }
+
+@keyframes rotate {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes elevation-contact {
+  to {
+    margin-top: -350px;
+  }
+}
+
+
 iframe {
   width:100%;
   height: 220px;
@@ -202,18 +361,8 @@ header a p {
   margin-top: 130px;
   padding: 0 10px;
 }
-.baton {
-  animation: rotate 900ms linear infinite;
-  width: 35%;
-  position: absolute;
-  top: 84px;
-  left: 23px;
-}
-@keyframes rotate {
-  to {
-    transform: rotate(-360deg);
-  }
-}
+
+
 #section1 h1 {
   margin: 30px 0 60px 0;
   color: #fff;
@@ -293,40 +442,6 @@ header a p {
 #section7 a{
   color: #fff;
 }
-.img-twirleuse {
-  width: 70%;
-  margin: 20px 0;
-  animation: incline 3000ms linear infinite;
-}
-@keyframes incline {
-  to {
-    transform: rotate(0deg);
-  }
-  25%{
-  }
-    from {
-      transform: rotate(10deg);
-    }
-  }
-  .baton-twirleuse {
-    animation: rotation 400ms linear infinite;
-    width: 20%;
-  }
-  @keyframes rotation {
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  .elevation-baton {
-    position: absolute;
-    margin:-25px 0px 0px -175px;
-    animation: elevation 1500ms alternate infinite;
-  }
-  @keyframes elevation {
-    to {
-      margin-top: -450px;
-    }
-  }
 
   #section7{
     margin: 90px 0 0px 0;
@@ -981,16 +1096,6 @@ footer li a {
   transition: all 400ms ease-out;
   color: #e6dbc6;
 }
-#contact .elevation-baton {
-  position: absolute;
-  margin:-24px 0px 0px -180px;
-  animation: elevation-contact 1500ms alternate infinite;
-}
-@keyframes elevation-contact {
-  to {
-    margin-top: -350px;
-  }
-}
 
 
 /*Infos pratiques*/
@@ -1069,11 +1174,10 @@ padding: 0 0 5px 0;
 
 
 
-
 /*Tab style*/
 
 @media (min-width: 768px) {
- 
+  
   /* Header tab */
   header {
     position: relative;
