@@ -1338,7 +1338,6 @@ padding: 0 0 5px 0;
   width: 125px;
   margin-left: 5px;
 }
-
 header {
   position: absolute;
   height: 150px;
@@ -1348,6 +1347,7 @@ header {
   flex-direction: column;
   align-items: center;
   border: none;
+  max-width: 1440px;
 }
 header a {
   width: 100%;
@@ -1361,15 +1361,18 @@ header p {
   color: red;
 }
 
+/*Tab barre de menu*/
 nav {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 40px 0 0 0px;
+  margin:40px 0 0 0;
   padding: 0;
   top: 0px;
   left: 0px;
   width: 100%;
+  z-index: 2;
 }
 nav a {
   opacity: 1;
