@@ -1599,8 +1599,34 @@ padding: 0 0 5px 0;
   }
       #infos h2 {
         border-bottom: none;
-
   }
+
+
+     /*Desk contact*/
+
+     .contact-infos {
+      display: flex;
+      justify-content: center;
+     }
+      #contact iframe {
+        width: 900px;
+        height: 300px;
+        margin: 20px 0 20px -600px;
+      }
+      .tel-mail {
+      display: flex;
+      justify-content: space-around;
+      }
+      .tel-mail a, .txt-location {
+      margin: 0;
+      width: 330px;
+      }
+      .localisation {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px 0px;
+      }
 
 
 
