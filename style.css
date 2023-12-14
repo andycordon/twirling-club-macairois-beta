@@ -1390,8 +1390,35 @@ padding: 0 0 5px 0;
     height: 350px;
   }
 
+/*Tab contact*/
+#contact iframe {
+    width: 350px;
+    height: 350px;
+    margin: 0;
+  }
+.tel-mail {
+  display: flex;
+  justify-content: center;
+}
+.tel-mail a, .txt-location {
+  margin: 0;
+  width: 350px;
+}
+.localisation {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px;
+}
+
 
 }
+
+
+
+
+
+
+
 
 
 
