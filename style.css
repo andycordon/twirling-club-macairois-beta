@@ -1181,6 +1181,14 @@ padding: 0 0 5px 0;
 
 
 
+
+
+
+
+
+
+
+
 /*Tab style*/
 
 @media (min-width: 768px) {
@@ -1357,12 +1365,24 @@ padding: 0 0 5px 0;
 
   #a-la-une article{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
+
+  #a-la-une .card{
+  margin: 10px;
+}
+
 
 
 
 
 }
+
+
+
+
+
 
 
 
