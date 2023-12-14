@@ -1367,10 +1367,17 @@ padding: 0 0 5px 0;
   #a-la-une article{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
   #a-la-une .card{
   margin: 10px;
+  width: 330px;
+}
+  #a-la-une img{
+  width: 310px;
+}
+  #a-la-une .button-article{
+  margin: -56px 0 0 171px;
 }
 
   /*Tab article*/
@@ -1543,5 +1550,36 @@ padding: 0 0 5px 0;
       }
     
 
-    
+      /*Desk infos pratiques*/
+      #infos {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        height: 100%;
+        margin: 200px 0 0 0;
+      }
+      #infos article {
+        width: 45%;
+        margin: 20px;
+        border: 1px #e6dbc6 solid;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      
+      #infos details {
+        border-bottom: none;
+        border-top: 1px #e6dbc6 solid;
   }
+      #infos h2 {
+        border-bottom: none;
+
+  }
+
+
+
+
+
+
+
+
+}
