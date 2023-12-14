@@ -1464,6 +1464,22 @@ padding: 0 0 5px 0;
   
 
 
+    #section1 {
+      position: relative;
+      text-align: center;
+    }
+    
+    .logoAccueil, .baton {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .baton {
+      top: 210px; /* Ajustez la valeur en pixels selon vos besoins */
+      left: 25px;
+    }
+    
 
     
   }
