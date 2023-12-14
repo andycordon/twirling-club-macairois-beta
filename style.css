@@ -1207,23 +1207,38 @@ padding: 0 0 5px 0;
   }
   #section1 {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     height: 333px;
+    position: relative;
+    text-align: center;
+  }
+  .logoAccueil, .baton {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .baton {
+    width: 100px;
+    top: 5px;
+    left: 22px;
   }
   #section1 .logoAccueil {
-    grid-column:1/1;
-    grid-row: 1/5;
+    grid-column:1;
+    grid-row: 1/4;
   }
   #section1 h1 {
-    grid-column: 2/2;
-    grid-row: 2;
-    margin: 20px 0 0 0;
+    grid-column: 2/4;
+    grid-row: 2/2;
+    margin: 0;
   }
   #section1 .buttonDecouverte {
-    grid-column: 2/2;
-    grid-row: 3;
+    grid-column: 2/4;
+    grid-row: 3/3;
     width: 50%;
-    padding: 10px 0 5px 0;
-    margin: 20px auto 0 auto;
+    height: 50px;
+    padding: 12px 0 10px 0;
+    margin: auto;
   }
   
   /*Tab index section*/
@@ -1337,6 +1352,9 @@ padding: 0 0 5px 0;
 
 
 
+
+
+
 /*Desktop style*/
 @media (min-width: 1024px) {
 
@@ -1414,11 +1432,6 @@ padding: 0 0 5px 0;
     margin:265px auto 0 auto;
     padding: 0 10px;
   }
-  .baton {
-    width: 160px;
-    top: 210px;
-    left: 65px;
-  }
   .elevation-baton {
     margin:-50px 0px 0px 320px;
   }
@@ -1427,14 +1440,29 @@ padding: 0 0 5px 0;
   }
   #section1 {
     height: 100vh;
+    position: relative;
+    text-align: center;
   }
-  #section1 h1 {
-    margin: 200px 0 0 0;
+  .logoAccueil, .baton {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
-  #section1 .buttonDecouverte {
-    padding: 20px 0;
-    margin: 50px auto auto auto;
+  .baton {
+    width: 160px;
+    top: 210px;
+    left: 25px;
   }
+#section1 h1 {
+  grid-row: 1;
+  margin: 400px 0 0 0;
+}
+#section1 .buttonDecouverte {
+  margin: 500px auto 0 auto;
+  grid-row: 1;
+  width: 250px;
+}
+  
   article img {
     width: 70%;
     margin: auto;
@@ -1461,24 +1489,7 @@ padding: 0 0 5px 0;
     #section8 .logos {
       overflow-x: hidden;
     }
-  
 
-
-    #section1 {
-      position: relative;
-      text-align: center;
-    }
-    
-    .logoAccueil, .baton {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    
-    .baton {
-      top: 210px; /* Ajustez la valeur en pixels selon vos besoins */
-      left: 25px;
-    }
     
 
     
