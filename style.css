@@ -1187,8 +1187,6 @@ padding: 0 0 5px 0;
 
 
 
-
-
 /*Tab style*/
 
 @media (min-width: 768px) {
@@ -1610,44 +1608,52 @@ padding: 0 0 5px 0;
       z-index: 2;
     }
     #contact iframe {
-      width: 900px;
+      width: 1000px;
       height: 300px;
       z-index: 2;
-        margin: 20px 0 20px -600px;
-      }
-      .tel-mail {
-        display: flex;
-        justify-content: space-around;
-        z-index: 2;
-      }
-      .tel-mail a, .txt-location {
+      margin: 20px 0 20px -690px;
+    }
+    .tel-mail {
+      display: flex;
+      justify-content: space-around;
+      z-index: 2;
+    }
+    .tel-mail a, .txt-location {
       margin: 0;
-      width: 330px;
-      }
-      .localisation {
+      width: 380px;
+    }
+    .localisation {
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin: 0px 0px;
+    }
+    
+    .reseaux {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .reseaux a {
+      margin: 0 60px;
+      z-index: 2;
+    }
+    @keyframes elevation-contact {
+      to {
+        margin-top: -800px;
       }
+    }
 
-      .reseaux {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .reseaux a {
-        margin: 0 40px;
-        z-index: 2;
-      }
-      @keyframes elevation-contact {
-        to {
-          margin-top: -800px;
-        }
-      }
-
-
-
+    .twirleuse-lancer {
+      display: flex;
+      justify-content: center;
+    }
+    .baton-twirleuse {
+      position: absolute;
+      width: 150px;
+      margin: 0 0 0 -350px;
+    }
+    
 
 
 
