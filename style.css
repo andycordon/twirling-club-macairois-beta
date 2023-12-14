@@ -1394,15 +1394,19 @@ padding: 0 0 5px 0;
     font-size: 16px;
     padding: 8px 0px;
     margin: 0 5px;
+      box-shadow: -1px 3px 5px #818181;
+
   }
   nav a:hover {
     background-color: #e6dbc6;
     color: black;
     border: 1px solid #e6dbc6;
+    box-shadow: none;
   }
   .menu-active {
     background-color: #030303;
     color: #e61652;
+    box-shadow: none; 
   }
   /*Desk section 1*/
   .logoAccueil {
