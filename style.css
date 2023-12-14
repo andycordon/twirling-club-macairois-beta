@@ -681,6 +681,9 @@ footer li a {
 #a-la-une h1 {
   padding: 100px 0 0 0;  
 }
+#a-la-une h2 {
+  padding: 20px 0 0 0;  
+}
 #a-la-une img{
   border: 1px solid #fff;
   border-radius: 20px;
@@ -1347,6 +1350,14 @@ padding: 0 0 5px 0;
   #club-bureau, #club-coachs, #club-licencies {
     padding: 30px 0 0 0;
   }
+
+  #a-la-une article{
+    display: flex;
+  }
+
+
+
+
 }
 
 
