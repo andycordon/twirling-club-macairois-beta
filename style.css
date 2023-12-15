@@ -104,6 +104,22 @@ nav a {
 
 
 /*Adaptation twirleuse + baton rotate/lancer*/
+.img-twirleuse {
+  width: 290px;
+  margin: 20px 0;
+  animation: incline 3000ms linear infinite;
+}
+.baton-twirleuse {
+  animation: rotation 400ms linear infinite;
+  width: 140px;
+  border-radius: 100%;
+}
+.contact-infos {
+  z-index: 2;
+}
+#contact iframe {
+  z-index: 2;
+}
 @media (min-width: 300px) {
   .baton {
     animation: rotate 900ms linear infinite;
@@ -113,14 +129,16 @@ nav a {
     left: 20px;
   }
   .elevation-baton {
+    z-index: -100;
     position: absolute;
-    margin:-21px 0px 0px -147px;
+    margin:-45px 0px 0px -25px;
     animation: elevation 1500ms alternate infinite;
   }
   #contact .elevation-baton {
+    z-index: -100;
     position: absolute;
+    margin:-45px 0px 0px -25px;
     animation: elevation-contact 1500ms alternate infinite;
-    margin:-21px 0px 0px -147px;
   }
 }
 @media (min-width: 325px) {
@@ -128,11 +146,8 @@ nav a {
     top: 89px;
     left: 21px;
   }
-  .elevation-baton {
-    margin:-25px 0px 0px -160px;
-  }
-  #contact .elevation-baton {
-    margin:-25px 0px 0px -160px;
+  .elevation-baton, #contact .elevation-baton {
+    margin-left:-13px;
   }
 }
 @media (min-width: 350px) {
@@ -140,11 +155,8 @@ nav a {
     top: 87px;
     left: 22px;
   }
-  .elevation-baton {
-    margin:-28px 0px 0px -172px;
-  }
-  #contact .elevation-baton {
-    margin:-28px 0px 0px -172px;
+  .elevation-baton,#contact .elevation-baton {
+    margin-left:-1px;
   }
 }
 @media (min-width: 375px) {
@@ -152,11 +164,8 @@ nav a {
     top: 84px;
     left: 23px;
   }
-  .elevation-baton {
-    margin:-31px 0px 0px -182px;
-  }
-  #contact .elevation-baton {
-    margin:-31px 0px 0px -182px;
+  .elevation-baton, #contact .elevation-baton {
+    margin-left:13px;
   }
 }
 @media (min-width: 400px) {
@@ -164,11 +173,8 @@ nav a {
     top: 81px;
     left: 24px;
   }
-  .elevation-baton {
-    margin:-34px 0px 0px -194px;
-  }
-  #contact .elevation-baton {
-    margin:-34px 0px 0px -194px;
+  .elevation-baton, #contact .elevation-baton {
+    margin-left:25px;
   }
 }
 @media (min-width: 425px) {
@@ -176,11 +182,8 @@ nav a {
     top: 78px;
     left: 25px;
   }
-  .elevation-baton {
-    margin:-37px 0px 0px -206px;
-  }
-  #contact .elevation-baton {
-    margin:-37px 0px 0px -206px;
+  .elevation-baton, #contact .elevation-baton {
+    margin-left:38px;
   }
 }
 @media (min-width: 450px) {
@@ -188,11 +191,8 @@ nav a {
     top: 75px;
     left: 26px;
   }
-  .elevation-baton {
-    margin:-40px 0px 0px -218px;
-  }
-  #contact .elevation-baton {
-    margin:-40px 0px 0px -218px;
+  .elevation-baton, #contact .elevation-baton {
+    margin-left:50px;
   }
 }
 @media (min-width: 475px) {
@@ -200,11 +200,8 @@ nav a {
     top: 72px;
     left: 27px;
   }
-  .elevation-baton {
-    margin:-43px 0px 0px -230px;
-  }
-  #contact .elevation-baton {
-    margin:-43px 0px 0px -230px;
+  .elevation-baton, #contact .elevation-baton {
+    margin-left:62px;
   }
 }
 @media (min-width: 500px) {
@@ -212,17 +209,9 @@ nav a {
     top: 69px;
     left: 28px;
   }
-  .elevation-baton {
-    margin:-46px 0px 0px -242px;
+  .elevation-baton, #contact .elevation-baton {
+    margin-left:75px;
   }
-  #contact .elevation-baton {
-    margin:-46px 0px 0px -242px;
-  }
-}
-.img-twirleuse {
-  width: 70%;
-  margin: 20px 0;
-  animation: incline 3000ms linear infinite;
 }
 @keyframes incline {
   to {
@@ -234,10 +223,6 @@ nav a {
       transform: rotate(10deg);
     }
   }
-  .baton-twirleuse {
-    animation: rotation 400ms linear infinite;
-    width: 20%;
-  }
   @keyframes rotation {
     to {
       transform: rotate(360deg);
@@ -245,7 +230,7 @@ nav a {
   }
   @keyframes elevation {
     to {
-      margin-top: -450px;
+      margin-top: -500px;
     }
   }
 
@@ -256,7 +241,7 @@ nav a {
 }
 @keyframes elevation-contact {
   to {
-    margin-top: -350px;
+    margin-top: -1100px;
   }
 }
 
@@ -1220,17 +1205,66 @@ padding: 0 0 5px 0;
     transform-origin: right;
   }
   
+  /*Qualibrage twirleuse*/
+  .img-twirleuse {
+    width: 290px;
+    margin: 20px 0;
+    animation: incline 3000ms linear infinite;
+  }
+  .baton-twirleuse {
+    animation: rotation 400ms linear infinite;
+    width: 140px;
+    border-radius: 100%;
+  }
+  .contact-infos {
+    z-index: 2;
+  }
+  #contact iframe {
+    z-index: 2;
+  }
+  @media (min-width: 300px) {
+    .baton {
+      animation: rotate 900ms linear infinite;
+      width: 35%;
+      position: absolute;
+      top: 93px;
+      left: 20px;
+    }
+    .elevation-baton {
+      z-index: -100;
+      position: absolute;
+      margin:-45px 0px 0px -25px;
+      animation: elevation 1500ms alternate infinite;
+    }
+    #contact .elevation-baton {
+      z-index: -100;
+      position: absolute;
+      margin:-45px 0px 0px -25px;
+      animation: elevation-contact 1500ms alternate infinite;
+    }
+  }
+  @keyframes elevation-contact {
+    to {
+      margin-top: -1000px;
+    }
+  }
+  @keyframes elevation {
+    to {
+      margin-top: -500px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .elevation-baton {
+      margin:-46px 0px 0px -242px;
+    }
+    #contact .elevation-baton {
+      margin:-46px 0px 0px -242px;
+    }
+  }
+  
+  
   /* Section 1 ACCUEIL tab*/
-  .logoAccueil {
-    width: 281px;
-    margin: 40px auto 0 auto;
-    padding: 0 10px;
-  }
-  .baton {
-    width: 100px;
-    top: 79px;
-    left: 39px;
-  }
   #section1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1250,6 +1284,9 @@ padding: 0 0 5px 0;
     left: 22px;
   }
   #section1 .logoAccueil {
+    width: 281px;
+    margin: 40px auto 0 auto;
+    padding: 0 10px;
     grid-column:1;
     grid-row: 1/4;
   }
@@ -1523,7 +1560,6 @@ width: 666px;
     padding-left:200px;
     font-size: 32px;
     font-weight: 900;
-    color: red;
   }
   /*Desk barre de menu*/
   nav {
