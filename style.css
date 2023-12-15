@@ -1174,9 +1174,8 @@ padding: 0 0 5px 0;
     left: 0;
   }
   .baton {
-    width: 100px;
-    top: 5px;
-    left: 22px;
+    width: 110px;
+    margin: 0 0 0 16px;
   }
   #section1 .logoAccueil {
     width: 281px;
