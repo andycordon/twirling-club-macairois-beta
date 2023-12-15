@@ -109,11 +109,7 @@ nav a {
   margin: 20px 0;
   animation: incline 3000ms linear infinite;
 }
-.baton-twirleuse {
-  animation: rotation 400ms linear infinite;
-  width: 140px;
-  border-radius: 100%;
-}
+
 .contact-infos {
   z-index: 2;
 }
@@ -128,26 +124,11 @@ nav a {
     top: 93px;
     left: 20px;
   }
-  .elevation-baton {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px -25px;
-    animation: elevation 1500ms alternate infinite;
-  }
-  #contact .elevation-baton {
-    z-index: -100;
-    position: absolute;
-    margin:-45px 0px 0px -25px;
-    animation: elevation-contact 1500ms alternate infinite;
-  }
 }
 @media (min-width: 325px) {
   .baton {
     top: 89px;
     left: 21px;
-  }
-  .elevation-baton, #contact .elevation-baton {
-    margin-left:-13px;
   }
 }
 @media (min-width: 350px) {
@@ -155,17 +136,11 @@ nav a {
     top: 87px;
     left: 22px;
   }
-  .elevation-baton,#contact .elevation-baton {
-    margin-left:-1px;
-  }
 }
 @media (min-width: 375px) {
   .baton {
     top: 84px;
     left: 23px;
-  }
-  .elevation-baton, #contact .elevation-baton {
-    margin-left:13px;
   }
 }
 @media (min-width: 400px) {
@@ -173,17 +148,11 @@ nav a {
     top: 81px;
     left: 24px;
   }
-  .elevation-baton, #contact .elevation-baton {
-    margin-left:25px;
-  }
 }
 @media (min-width: 425px) {
   .baton {
     top: 78px;
     left: 25px;
-  }
-  .elevation-baton, #contact .elevation-baton {
-    margin-left:38px;
   }
 }
 @media (min-width: 450px) {
@@ -191,17 +160,11 @@ nav a {
     top: 75px;
     left: 26px;
   }
-  .elevation-baton, #contact .elevation-baton {
-    margin-left:50px;
-  }
 }
 @media (min-width: 475px) {
   .baton {
     top: 72px;
     left: 27px;
-  }
-  .elevation-baton, #contact .elevation-baton {
-    margin-left:62px;
   }
 }
 @media (min-width: 500px) {
@@ -209,9 +172,29 @@ nav a {
     top: 69px;
     left: 28px;
   }
-  .elevation-baton, #contact .elevation-baton {
-    margin-left:75px;
-  }
+}
+.twirleuse-lancer {
+  display: flex;
+  justify-content: center;
+}
+.baton-twirleuse {
+  position: absolute;
+  margin: 0 0 0 -158px;
+  animation: rotation 400ms linear infinite;
+  width: 140px;
+  border-radius: 100%;
+}
+.elevation-baton {
+  z-index: -100;
+  position: absolute;
+  margin:-45px 0px 0px -25px;
+  animation: elevation 1500ms alternate infinite;
+}
+#contact .elevation-baton {
+  z-index: -100;
+  position: absolute;
+  margin:-45px 0px 0px -25px;
+  animation: elevation-contact 1500ms alternate infinite;
 }
 @keyframes incline {
   to {
@@ -228,22 +211,21 @@ nav a {
       transform: rotate(360deg);
     }
   }
+  @keyframes rotate {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
   @keyframes elevation {
     to {
       margin-top: -500px;
     }
   }
-
-@keyframes rotate {
-  to {
-    transform: rotate(-360deg);
+  @keyframes elevation-contact {
+    to {
+      margin-top: -1110px;
+    }
   }
-}
-@keyframes elevation-contact {
-  to {
-    margin-top: -1100px;
-  }
-}
 
 
 iframe {
@@ -1285,20 +1267,6 @@ padding: 0 0 5px 0;
     padding: 40px 0 0 0;
   }
 
-  /*Tab img baton twirleuse adapté*/
-  .img-twirleuse {
-    width: 350px;
-  }
-  .baton-twirleuse{
-    width: 130px;
-  }
-  .elevation-baton {
-    margin:-40px 0px 0px 195px;
-  }
-  #contact .elevation-baton {
-    margin:-40px 0px 0px 195px;
-  }
-
   #section3 .right-article, #section3 .left-article{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1446,6 +1414,26 @@ width: 666px;
 }
 
 
+
+@keyframes elevati on {
+  to {
+    margin-top: -500px;
+  }
+}
+@keyframes elevation-conta ct {
+  to {
+    margin-top: -1100px;
+  }
+}
+.baton-twirleuse {
+  position: absolute;
+  width: 150px;
+  margin: -4px 0 0 -173px;
+}
+
+.img-twirleuse {
+  width: 320px;
+}
 
 
 
@@ -1690,14 +1678,14 @@ width: 666px;
       }
     }
 
-    .twirleuse-lancer {
+    /* .twirleuse-lancer {
       display: flex;
       justify-content: center;
-    }
+    } */
     .baton-twirleuse {
       position: absolute;
       width: 150px;
-      margin: 0 0 0 -350px;
+      margin: 0 0 0 -346px;
     }
     
 
