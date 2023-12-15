@@ -104,75 +104,36 @@ nav a {
 
 
 /*Adaptation twirleuse + baton rotate/lancer*/
+.logo-rotate {
+  display: flex;
+  justify-content: center;
+}
+.baton {
+  position: absolute;
+  width: 140px;
+  margin: 80px 0 0 -200px;
+  animation: rotate 900ms linear infinite;
+}
+.logoAccueil {
+  width: 350px;
+  margin-top: 130px;
+}
+
+
+
+
 .img-twirleuse {
   width: 290px;
   margin: 20px 0;
   animation: incline 3000ms linear infinite;
 }
-
 .contact-infos {
   z-index: 2;
 }
 #contact iframe {
   z-index: 2;
 }
-@media (min-width: 300px) {
-  .baton {
-    animation: rotate 900ms linear infinite;
-    width: 35%;
-    position: absolute;
-    top: 93px;
-    left: 20px;
-  }
-}
-@media (min-width: 325px) {
-  .baton {
-    top: 89px;
-    left: 21px;
-  }
-}
-@media (min-width: 350px) {
-  .baton {
-    top: 87px;
-    left: 22px;
-  }
-}
-@media (min-width: 375px) {
-  .baton {
-    top: 84px;
-    left: 23px;
-  }
-}
-@media (min-width: 400px) {
-  .baton {
-    top: 81px;
-    left: 24px;
-  }
-}
-@media (min-width: 425px) {
-  .baton {
-    top: 78px;
-    left: 25px;
-  }
-}
-@media (min-width: 450px) {
-  .baton {
-    top: 75px;
-    left: 26px;
-  }
-}
-@media (min-width: 475px) {
-  .baton {
-    top: 72px;
-    left: 27px;
-  }
-}
-@media (min-width: 500px) {
-  .baton {
-    top: 69px;
-    left: 28px;
-  }
-}
+
 .twirleuse-lancer {
   display: flex;
   justify-content: center;
@@ -323,13 +284,6 @@ header a p {
 #section1 {
   height: 100vh;
 }
-.logoAccueil {
-  width: 100%;
-  margin-top: 130px;
-  padding: 0 10px;
-}
-
-
 #section1 h1 {
   margin: 30px 0 60px 0;
   color: #fff;
@@ -1167,6 +1121,23 @@ padding: 0 0 5px 0;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Tab style*/
 
 @media (min-width: 768px) {
@@ -1413,9 +1384,7 @@ padding: 0 0 5px 0;
 width: 666px;
 }
 
-
-
-
+/*Lancer twirleuse*/
 @keyframes elevation-contact {
   to {
     margin-top: -1020px;
@@ -1673,11 +1642,6 @@ width: 666px;
         margin-top: -800px;
       }
     }
-
-    /* .twirleuse-lancer {
-      display: flex;
-      justify-content: center;
-    } */
     .baton-twirleuse {
       position: absolute;
       width: 150px;
@@ -1718,5 +1682,3 @@ width: 666px;
 
 
 }
-
-
