@@ -992,6 +992,9 @@ footer li a {
 #entrainements .no-flip-card-inner p, .no-flip-card-inner-img-1 p, .no-flip-card-inner-img-2 p, .no-flip-card-inner-img-3 p, .no-flip-card-inner-img-4 p, .no-flip-card-inner-img-5 p {
   margin-top: 20px;
 }
+#entrainements .buttonPlus{
+  margin: 20px 0 40px 0;
+}
 
 
 /*Degrés*/
