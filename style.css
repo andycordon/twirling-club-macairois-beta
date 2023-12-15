@@ -1415,14 +1415,10 @@ width: 666px;
 
 
 
-@keyframes elevati on {
+
+@keyframes elevation-contact {
   to {
-    margin-top: -500px;
-  }
-}
-@keyframes elevation-conta ct {
-  to {
-    margin-top: -1100px;
+    margin-top: -1020px;
   }
 }
 .baton-twirleuse {
