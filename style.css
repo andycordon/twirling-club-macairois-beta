@@ -1168,14 +1168,10 @@ padding: 0 0 5px 0;
     position: relative;
     text-align: center;
   }
-  .logoAccueil, .baton {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+
   .baton {
     width: 110px;
-    margin: 0 0 0 16px;
+    margin: 0 0 0 -148px;
   }
   #section1 .logoAccueil {
     width: 281px;
