@@ -1205,64 +1205,6 @@ padding: 0 0 5px 0;
     transform-origin: right;
   }
   
-  /*Qualibrage twirleuse*/
-  .img-twirleuse {
-    width: 290px;
-    margin: 20px 0;
-    animation: incline 3000ms linear infinite;
-  }
-  .baton-twirleuse {
-    animation: rotation 400ms linear infinite;
-    width: 140px;
-    border-radius: 100%;
-  }
-  .contact-infos {
-    z-index: 2;
-  }
-  #contact iframe {
-    z-index: 2;
-  }
-  @media (min-width: 300px) {
-    .baton {
-      animation: rotate 900ms linear infinite;
-      width: 35%;
-      position: absolute;
-      top: 93px;
-      left: 20px;
-    }
-    .elevation-baton {
-      z-index: -100;
-      position: absolute;
-      margin:-45px 0px 0px -25px;
-      animation: elevation 1500ms alternate infinite;
-    }
-    #contact .elevation-baton {
-      z-index: -100;
-      position: absolute;
-      margin:-45px 0px 0px -25px;
-      animation: elevation-contact 1500ms alternate infinite;
-    }
-  }
-  @keyframes elevation-contact {
-    to {
-      margin-top: -1000px;
-    }
-  }
-  @keyframes elevation {
-    to {
-      margin-top: -500px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .elevation-baton {
-      margin:-46px 0px 0px -242px;
-    }
-    #contact .elevation-baton {
-      margin:-46px 0px 0px -242px;
-    }
-  }
-  
   
   /* Section 1 ACCUEIL tab*/
   #section1 {
