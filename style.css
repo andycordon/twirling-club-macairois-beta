@@ -1001,6 +1001,10 @@ footer li a {
 #entrainements .regles p{
   margin: 15px;
 }
+.info-title {
+  padding: 95px 0 0 0;
+  margin: 0px;
+}
 
 
 /*Degrés*/
@@ -1366,7 +1370,7 @@ padding: 0 0 5px 0;
     margin: -75px 0 0 0;
   }
   .info-title {
-    margin: 20px 0 0 0;
+    margin: -70px 0 0 0;
   }
 
   /*Tab Bureau h2*/
