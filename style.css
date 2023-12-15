@@ -902,7 +902,7 @@ footer li a {
 #entrainements .no-flip-card {
   display: flex;
   color: #fff;
-  border: #fff 1px solid;
+  border: 3px solid #e6dbc6;
   border-radius: 25px;
 }
 #entrainements .no-flip-card-inner-img-1{
@@ -1412,6 +1412,50 @@ padding: 0 0 5px 0;
   justify-content: center;
   margin: 60px 0px;
 }
+
+/*Tab entrainement*/
+.fa-circle-arrow-right{
+  display: none;
+}
+#entrainements .no-flip-card {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 666px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+#entrainements .no-flip-card-inner-img-1{
+  width: 100%;
+  margin-bottom: 0;
+}
+#entrainements .no-flip-card-inner-img-2{
+  width: 100%;
+  margin-bottom: 0;
+}
+#entrainements .no-flip-card-inner-img-3{
+  width: 100%;
+  margin-bottom: 0;
+}
+#entrainements .no-flip-card-inner-img-4{
+  width: 100%;
+  margin-bottom: 0;
+}
+#entrainements .no-flip-card-inner-img-5{
+  width: 100%;
+  margin-bottom: 0;
+}
+#entrainements .no-flip-card {
+  margin-bottom: 20px;
+}
+#entrainements .entrainement-descriptions {
+width: 666px;
+}
+
+
+
+
+
+
 
 
 }
