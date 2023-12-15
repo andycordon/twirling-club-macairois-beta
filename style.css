@@ -998,6 +998,10 @@ footer li a {
 #entrainements .buttonPlus{
   margin: 20px 0 20px 0;
 }
+#entrainements .regles p{
+  margin: 15px;
+}
+
 
 /*Degrés*/
 #degres h1 {
@@ -1703,6 +1707,35 @@ width: 666px;
       margin: 0 0 0 -350px;
     }
     
+
+    /*Desk entrainement*/
+    #entrainements .no-flip-card {
+      width: 996px;
+      padding-bottom: 0;
+    }
+    #entrainements .carousel-items {
+      overflow-x: hidden;
+    }
+    #entrainements .no-flip-card-inner-img-1, #entrainements .no-flip-card-inner-img-2, #entrainements .no-flip-card-inner-img-3, #entrainements .no-flip-card-inner-img-4, #entrainements .no-flip-card-inner-img-5{
+      width: 320px;
+      height: 320px;
+      margin: 5px;
+    }
+
+    #entrainements .no-flip-card-inner-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #entrainements .no-flip-card-inner-img img{
+      width: 320px;
+      height: 320px;
+      border: 1px #fff solid;
+    }
+    #entrainements .entrainement-descriptions {
+      width: 50%;
+      }
+
 
 
 
