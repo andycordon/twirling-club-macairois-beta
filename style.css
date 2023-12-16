@@ -394,8 +394,17 @@ header a p {
     top: 0;
     content: "";
     z-index: 2;
+    height: 100%;
+    width: 150px;
   }
-  
+  .logos::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
+  }
+  .logos::after {
+    right: 0;
+    background: linear-gradient(to right, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
+  }
   #section8 .logos:hover .logos-slide {
     animation-play-state: paused;
   }
@@ -1400,6 +1409,9 @@ width: 666px;
   width: 320px;
 }
 
+.logos:after {
+  width: 250px;
+}
 
 
 
@@ -1703,11 +1715,17 @@ width: 666px;
         padding: 0 10px 0 100px;
         margin:0 -70px 0 0px;
       }
-
+      .logos:after {
+        width: 400px;
+      }
       footer {
         position: absolute;
         left: 0;
         right: 0;
       }
 
-}
+      
+      
+      
+      
+    }
