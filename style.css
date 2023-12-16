@@ -1704,6 +1704,10 @@ width: 666px;
         margin:0 -70px 0 0px;
       }
 
-
+      footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
 
 }
