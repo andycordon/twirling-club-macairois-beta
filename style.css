@@ -1165,17 +1165,7 @@ padding: 0 0 5px 0;
   }
   
   /*Menu tab*/
-  nav {
-    position: relative;
-    top: 203px;
-    left: 45px;
-    width: 60%;
-  }
-  nav a {
-    transform-origin: right;
-  }
-  
-  
+
   /* Section 1 ACCUEIL tab*/
   #section1 {
     display: flex;
@@ -1357,7 +1347,6 @@ padding: 0 0 5px 0;
 .fa-circle-arrow-right{
   display: none;
 }
-
 #entrainements .no-flip-card {
   flex-wrap: wrap;
   justify-content: center;
@@ -1471,7 +1460,7 @@ width: 666px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:40px 0 0 0;
+    margin:170px 0 0 0;
     padding: 0;
     top: 0px;
     left: 0px;
