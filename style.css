@@ -1171,11 +1171,8 @@ padding: 0 0 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
     height: 400px;
   }
-
   .baton {
     width: 120px;
     margin: -43px 0 0 -165px;
@@ -1192,7 +1189,6 @@ padding: 0 0 5px 0;
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
-
   }
   #section1 .buttonDecouverte {
     width: 250px;
@@ -1245,7 +1241,7 @@ padding: 0 0 5px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 55px 30px 1fr;
-    }
+  }
   #section3 .left-article img {
     grid-column:1/1;
     grid-row: 1/4;  
@@ -1497,39 +1493,43 @@ width: 666px;
     box-shadow: none; 
   }
   /*Desk section 1*/
+  #section1 {
+    justify-content: space-around;
+    height: 800px;
+  }
+
+  #section2 h2, #section2 p, #section5 h2, #section5 p{
+    text-align: left;
+    padding: 0 100px 0 10px;
+    margin:0 0 0 -70px;
+  }
+  #section4 h2, #section4 p, #section6 h2, #section6 p{
+    text-align: right;
+    padding: 0 10px 0 100px;
+    margin:0 -70px 0 0px;
+  }
+
+
+
 
   .baton {
-    width: 140px;
-    margin: 80px 0 0 -200px;
-    animation: rotate 900ms linear infinite;
+    width: 210px;
+    margin: -77px 0 0 -279px;
   }
-  .logoAccueil {
-    width: 100%;
-    margin-top:0px;
-    position: absolute;
-    background-color: red;
+  .logoAccueil{
+    width: 500px;
+    height: 490px;
   }
+
+  /*Desk lancer de baton twirleuse*/
   .elevation-baton {
     margin:-50px 0px 0px 320px;
   }
   #contact .elevation-baton {
     margin:-50px 0px 0px 320px;
   }
-  #section1 {
-    height: 100vh;
-    position: relative;
-    text-align: center;
-  }
-#section1 h1 {
-  grid-row: 1;
-  margin: 400px 0 0 0;
-}
-#section1 .buttonDecouverte {
-  margin: 500px auto 0 auto;
-  grid-row: 1;
-  width: 250px;
-}
   
+  /*Desk all size article img*/
   article img {
     width: 70%;
     margin: auto;
@@ -1676,7 +1676,29 @@ width: 666px;
       }
 
 
-
+  .right-article h2 {
+    text-align: right;
+    padding: 0 10px 0 100px;
+    margin:0 -70px 0 0px;
+  }
+  .right-article .date-article {
+    text-align: right;
+    padding: 0 10px 0 100px;
+    margin:0 -1070px 0 0px;
+    background-color: rebeccapurple;
+  }
+  .left-article h2 {
+    text-align: left;
+    padding: 0 100px 0 10px;
+    margin:0 0px 0 -70px;
+    background-color: blue;
+  }
+  .left-article .date-article {
+    text-align: left;
+    padding: 0 100px 0 10px;
+    margin:0 0px 0 -70px;
+    background-color: rebeccapurple;
+  }
 
 
 }
