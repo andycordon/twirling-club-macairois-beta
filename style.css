@@ -1357,9 +1357,7 @@ padding: 0 0 5px 0;
 .fa-circle-arrow-right{
   display: none;
 }
-#entrainements a {
-  cursor:initial;
-}
+
 #entrainements .no-flip-card {
   flex-wrap: wrap;
   justify-content: center;
