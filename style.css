@@ -2,6 +2,13 @@
  color: #fff;
  background: #e61652;
  }
+::-moz-selection {
+color: #fff;
+background: #e61652;
+}
+:active {
+  background: #e61652;
+}
 
 @font-face {
   font-family: 'Arial Rounded MT Bold';
