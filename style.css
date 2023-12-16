@@ -6,7 +6,7 @@
 color: #fff;
 background: #e61652;
 }
-:active {
+a:active {
   background: #e61652;
 }
 
