@@ -1550,11 +1550,11 @@ width: 666px;
   }
   /*Desktop margin top all page*/
   #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #contact h1, #article h1  {
-    padding: 250px 0 0 0;
+    padding: 100px 0 0 0;
     margin: 0px 0 0 0;
   }
   .info-title {
-      padding: 250px 0 0 0;
+      padding: 100px 0 0 0;
       margin: 0px 0 -180px 0;
     }
     
