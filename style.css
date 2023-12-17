@@ -6,6 +6,9 @@
 color: #fff;
 background: #e61652;
 }
+a:active {
+  background: #e616510a;
+}
 
 @font-face {
   font-family: 'Arial Rounded MT Bold';
@@ -693,6 +696,7 @@ footer li a {
 }
 #boutique h2{
   margin: 0 0 -20px 0;
+  padding: 20px 0 0 0;
 }
 #boutique .boutique-menu{
   margin: 30px 5px;
