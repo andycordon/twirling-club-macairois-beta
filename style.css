@@ -620,7 +620,7 @@ footer li a {
   padding: 100px 0 0 0;  
 }
 #a-la-une h2 {
-  padding: 20px 0 0 0;  
+  padding: 30px 0 0 0;  
 }
 #a-la-une img{
   border: 1px solid #fff;
@@ -729,8 +729,7 @@ footer li a {
   padding: 100px 0 0 0;  
 }
 #boutique h2{
-  margin: 0 0 -20px 0;
-  padding: 20px 0 0 0;
+  margin: 30px 0 10px 0;
 }
 #boutique .boutique-menu{
   margin: 30px 5px;
@@ -738,25 +737,7 @@ footer li a {
   flex-wrap: wrap;
   justify-content: center;
 }
-#boutique .boutique-ancre{
-  font-size: 22px;
-  color: #030303;
-  background-color: #e6dbc6;
-  margin: 5px;
-  padding: 10px 5px;
-  width: 150px;
-  border-radius: 20px;
-  border: 1px solid #fff;
-  box-shadow: -1px 3px 5px #818181;
-}
-#boutique .boutique-ancre:hover{
-  color: #e6dbc6;
-  background-color: #030303;
-  transition: all 400ms ease-in;
-  box-shadow: none;
-  border: 1px solid #e6dbc6;
-  
-}
+
 /*boutique carousel*/
 #boutique .carousel-item {
   flex-grow: 1;
@@ -1587,6 +1568,7 @@ width: 666px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 #archives .archives-menu a{
   margin: 10px;
