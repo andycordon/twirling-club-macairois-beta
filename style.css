@@ -1578,6 +1578,22 @@ width: 666px;
     width: 70%;
     margin: auto;
   }
+
+/*Desk archives*/
+#archives h1 {
+  padding: 100px 0 0 0;  
+}
+#archives .archives-menu{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#archives .archives-menu a{
+  margin: 10px;
+  width: 25%;
+}
+
+
   /*Desktop margin top all page*/
   #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #contact h1, #article h1  {
     padding: 100px 0 0 0;
