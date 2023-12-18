@@ -335,7 +335,7 @@ header a p {
 }
 
 
-/* Section 4 LA BOUTIQUE mobile*/
+/* Section 4 TOP ADRESSES mobile*/
 #section4 {
   margin: 90px 0 0 0;
 }
@@ -724,22 +724,22 @@ footer li a {
 }
 
 
-/*Boutique*/
-#boutique h1 {
+/*Top adresse*/
+#top-adresses h1 {
   padding: 100px 0 0 0;  
 }
-#boutique h2{
+#top-adresses h2{
   margin: 30px 0 10px 0;
 }
-#boutique .boutique-menu{
+#top-adresses .top-adresses-menu{
   margin: 30px 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-/*boutique carousel*/
-#boutique .carousel-item {
+/*Top adresses carousel*/
+#top-adresses .carousel-item {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 450px;
@@ -747,18 +747,18 @@ footer li a {
   margin: 20px 15px 20px 0px;
   scroll-snap-align: start;
 }
-#boutique .carousel-items {
+#top-adresses .carousel-items {
   display: flex;
   overflow-x: scroll;
   padding: 20px 0 20px 5px;
 }
-#boutique .flip-card {
+#top-adresses .flip-card {
   background-color: transparent;
   width: 300px;
   height: 380px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
-#boutique .flip-card-inner {
+#top-adresses .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -766,23 +766,23 @@ footer li a {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-#boutique .flip-card:hover .flip-card-inner {
+#top-adresses .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-#boutique .flip-card-front img {
+#top-adresses .flip-card-front img {
   width: 299px;
   padding: 0px;
   border: none;
   border-radius: 20px 20px 0 0;
 }
-#boutique .flip-card-front, .flip-card-back {
+#top-adresses .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
-#boutique .flip-card-front {
+#top-adresses .flip-card-front {
   border: 1px solid #fff;
   border-radius: 20px;
   background: #fff;
@@ -790,7 +790,7 @@ footer li a {
   padding: 0px;
   box-shadow: -1px 3px 5px #818181;
 }
-#boutique .flip-card-back {
+#top-adresses .flip-card-back {
   border: 1px solid #fff;
   background-color: #fff;
   color: #000;
@@ -800,32 +800,32 @@ footer li a {
   margin: 0;
   padding: 0;
 }
-#boutique .fa-circle-plus{
+#top-adresses .fa-circle-plus{
   position: absolute;
   margin: -25px 0 0px 115px;
   font-size: 20px;
   opacity: 0.5;
 }
-#boutique .flip-card-back a {
+#top-adresses .flip-card-back a {
   color: #030303;
 }
-#boutique .flip-card-front h3 {
+#top-adresses .flip-card-front h3 {
   margin: 10px 5px;
 }
-#boutique .flip-card-back .boutique-descriptif {
+#top-adresses .flip-card-back .top-adresses-descriptif {
   margin: 10px 5px;
 }
-#boutique .flip-card-back .boutique-contact {
+#top-adresses .flip-card-back .top-adresses-contact {
   background-color: #e6dbc6;
   border-radius: 20px 20px 0 0;
   padding: 10px 0;
 }
-#boutique .link-description {
+#top-adresses .link-description {
   color: #e61652;
   margin: 5px 0;
   text-decoration: underline 2px;
 }
-#boutique .link-description:hover {
+#top-adresses .link-description:hover {
   transition: all 400ms ease-out;
   opacity: 0.6;
   text-decoration: none;
@@ -1300,7 +1300,7 @@ padding: 0 0 5px 0;
   }
 
   /*Tab margin top all page*/
-  #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #contact h1, #article h1  {
+  #club h1, #a-la-une h1, #top-adresses h1, #entrainements h1, #contact h1, #article h1  {
     margin: -75px 0 0 0;
   }
   .info-title {
@@ -1577,7 +1577,7 @@ width: 666px;
 
 
   /*Desktop margin top all page*/
-  #club h1, #a-la-une h1, #boutique h1, #entrainements h1, #contact h1, #article h1  {
+  #club h1, #a-la-une h1, #top-adresses h1, #entrainements h1, #contact h1, #article h1  {
     padding: 100px 0 0 0;
     margin: 0px 0 0 0;
   }
