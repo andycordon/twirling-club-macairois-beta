@@ -689,6 +689,40 @@ footer li a {
   margin: 0 0 40px 0;
 }
 
+/*Archives*/
+
+#archives h1 {
+  padding: 100px 0 0 0;  
+}
+#archives h2{
+  margin: -10px 0 -10px 0;
+  padding: 0;
+}
+#archives .archives-menu{
+  margin: 30px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#archives .archives-menu a{
+  font-size: 22px;
+  color: #030303;
+  background-color: #e6dbc6;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-shadow: -1px 3px 5px #818181;
+}
+#archives .archives-menu a:hover{
+  color: #e6dbc6;
+  background-color: #030303;
+  transition: all 400ms ease-in;
+  box-shadow: none;
+  border: 1px solid #e6dbc6;
+}
+
 
 /*Boutique*/
 #boutique h1 {
