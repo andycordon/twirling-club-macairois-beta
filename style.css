@@ -1432,6 +1432,59 @@ width: 666px;
 }
 
 
+/*Tab Degrés*/
+#degres h1 {
+  padding:30px 0 0 0;  
+}
+#degres h2 {
+  margin: 20px 0;  
+}
+
+#degres img{
+  width: 80%;
+}
+#degres .all-degres {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+#degres article {
+width: 350px;
+margin: 10px 0 40px 0;
+}
+
+
+/*Degrés détaillé*/
+#degres-details h1 {
+  padding: 30px 0 10px 0;  
+}
+#degres-details .all-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+#degres-details article {
+  width: 40%;
+  margin: 10px;
+}
+
+/*Degrés détaillé série*/
+#degres-details-serie h1 {
+  padding: 30px 0 0 0;  
+}
+#degres-details-serie iframe {
+  height: 500px;
+}
+#degres-details-serie h3 {
+  margin: -30px 0 5px 0;
+}
+#degres-details-serie .descriptifs div p{
+  font-size: 16px;
+}
+
+
 
 
 
@@ -1753,6 +1806,36 @@ width: 666px;
         right: 0;
       }
 
+      /*Desk Degrés*/
+      #degres h1 {
+        padding:100px 0 0 0;  
+      }
+      #degres article {
+      width: 300px;
+      }
+      /*Degrés détaillé*/
+      #degres-details h1 {
+        padding: 100px 0 10px 0;  
+      }
+      #degres-details article {
+        width: 25%;
+      }
+
+      /*Degrés détaillé série*/
+      #degres-details-serie h1 {
+        padding: 100px 0 0 0;  
+      }
+      #degres-details-serie iframe {
+        width: 80%;
+      }
+      #degres-details-serie div{
+        width: 19%;
+        margin: 5px;
+        padding: 0;
+      }
+      #degres-details-serie div img{
+        width: 100%;
+      }
       
       
       
