@@ -1055,25 +1055,14 @@ footer li a {
 #contact .fa-phone, .fa-location-dot, .fa-envelope{
   font-size: 28px;
 }
-#contact .fa-facebook{
-  margin: 20px 0 5px 0;
-  color: #e61652;
-}
-#contact .fa-instagram {
-  margin: 20px 0 5px 0;
-  color: #e61652;
-}
-#contact .fa-discord {
+#contact .fa-facebook, #contact .fa-instagram, #contact .fa-youtube, #contact .fa-discord {
   margin: 20px 0 5px 0;
   color: #e61652;
 }
 #contact a {
   color:white;
 }
-#contact a:hover {
-  transition: all 400ms ease-out;
-  color: #e6dbc6;
-}
+
 
 
 /*Infos pratiques*/
