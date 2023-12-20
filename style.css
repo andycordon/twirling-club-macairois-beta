@@ -1168,6 +1168,10 @@ padding: 0 0 5px 0;
 
 @media (min-width: 768px) {
   
+  .copyrigth br {
+    display: none;
+  }
+
   /* Header tab */
   header {
     position: relative;
