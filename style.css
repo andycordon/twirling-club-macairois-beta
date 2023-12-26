@@ -625,6 +625,7 @@ margin:30px 0 10px 0;
 }
 #a-la-une h2 {
   padding: 30px 0 0 0;  
+  margin: 0 0 -20px 0;
 }
 #a-la-une img{
   border: 1px solid #fff;
@@ -639,7 +640,7 @@ margin:30px 0 10px 0;
 }
 #a-la-une .card {
   width: 340px;
-  margin: 10px auto 40px auto;
+  margin: 10px auto 20px auto;
   padding: 0 0 10px 0;
   border-radius:25px;
   border: 3px solid #e6dbc6;
@@ -652,7 +653,7 @@ margin:30px 0 10px 0;
 }
 
 #a-la-une .card h3{
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
 #a-la-une .button-article {
   position: relative;
