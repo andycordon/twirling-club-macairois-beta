@@ -135,9 +135,6 @@ nav a {
 .contact-infos {
   z-index: 2;
 }
-#contact iframe {
-  z-index: 2;
-}
 
 .twirleuse-lancer {
   display: flex;
