@@ -1062,6 +1062,11 @@ margin:30px 0 10px 0;
 #contact a {
   color:white;
 }
+#contact a:hover {
+  transition: all 400ms ease-out;
+  color:#e61652;
+  opacity: 0.7;
+}
 
 
 
