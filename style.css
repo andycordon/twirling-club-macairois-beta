@@ -520,8 +520,8 @@ footer li a {
 #club h1 {
   padding: 100px 0 0 0;  
 }
-#club #club-bureau, #club-coachs, #club-licencies {
-  margin: 30px 0 0 0;  
+#club h2 {
+margin:30px 0 10px 0;
 }
 /*Club carousel*/
 #club .carousel-item {
@@ -529,7 +529,7 @@ footer li a {
   flex-shrink: 0;
   flex-basis: 450px;
   flex: 1 0 250px;
-  margin: 20px 0 20px 15px;
+  margin: 10px 0 20px 15px;
   scroll-snap-align: start;
 }
 #club .carousel-items {
