@@ -427,6 +427,12 @@ header a p {
       transform: translateX(-100%);
     }
   }
+
+  #section2 h2, #section3 h2, #section4 h2, #section5 h2, #section6 h2 {
+    margin:10px 0;
+  }
+
+
 /* Footer mobile*/
 footer {
   background-color: #e6dbc6;
@@ -1581,14 +1587,24 @@ margin: 10px 0 40px 0;
     height: 800px;
   }
 
-  #section2 h2, #section2 p, #section5 h2, #section5 p{
+  #section2 p, #section5 p{
     text-align: left;
     padding: 0 100px 0 10px;
     margin:0 0 0 -70px;
   }
-  #section4 h2, #section4 p, #section6 h2, #section6 p{
+  #section2 h2, #section5 h2{
+    text-align: left;
+    padding: 10px 100px 0 10px;
+    margin:0 0 0 -70px;
+  }
+  #section4 p, #section6 p{
     text-align: right;
     padding: 0 10px 0 100px;
+    margin:0 -70px 0 0px;
+  }
+  #section4 h2, #section6 h2{
+    text-align: right;
+    padding: 10px 10px 0 100px;
     margin:0 -70px 0 0px;
   }
 
@@ -1781,9 +1797,14 @@ margin: 10px 0 40px 0;
       #section3 .date-article{
         display: block;
       }
-      #section3 .left-article p, .left-article h2{
+      #section3 .left-article p{
         text-align: left;
         padding: 0 100px 0 10px;
+        margin:0 0px 0 -70px;
+      }      
+      #section3 .left-article h2{
+        text-align: left;
+        padding: 10px 0px 0 10px;
         margin:0 0px 0 -70px;
       }      
       #section3 .right-article .date-article{
@@ -1791,7 +1812,12 @@ margin: 10px 0 40px 0;
         grid-column:1;
         grid-row: 2;
       }
-      #section3 .right-article p, .right-article h2{
+      #section3 .right-article h2{
+        text-align: right;
+        padding: 10px 10px 0 100px;
+        margin:0 -70px 0 0px;
+      }
+      #section3 .right-article p{
         text-align: right;
         padding: 0 10px 0 100px;
         margin:0 -70px 0 0px;
