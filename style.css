@@ -1358,6 +1358,35 @@ padding: 0 0 5px 0;
   z-index: 2;
 }
 
+
+
+
+
+/*Entrainement carousel*/
+#entrainements .section1-3{
+ cursor: default;
+}
+#entrainements .section2-3{
+  margin: 0px 0px 5px -5px;
+  border-radius: 0 0 0 20px;
+  width: 326px;
+}
+#entrainements iframe{
+  border: none;
+  border-top: 1px #fff solid;
+  border-radius: 0 0 0 20px;
+  padding: 0;
+  margin:12px 0 -13px 0;
+}
+#entrainements .section3-3{
+  margin: 0px -5px 5px 5px;
+  border-radius: 0 0 20px 0;
+}
+#entrainements .section3-3 img{
+  border-radius: 0 0 20px 0;
+}
+
+
 /*Tab entrainement*/
 .fa-circle-arrow-right{
   display: none;
@@ -1367,28 +1396,12 @@ padding: 0 0 5px 0;
   justify-content: center;
   width: 666px;
   margin: 0 auto;
-  padding-bottom: 5px;
 }
-#entrainements .no-flip-card-inner-img-1{
+#entrainements .img-1, #entrainements .img-2, #entrainements .img-3, #entrainements .img-4, #entrainements .img-5{
   width: 100%;
-  margin-bottom: 0;
+  border-radius: 20px 20px 0 0;
 }
-#entrainements .no-flip-card-inner-img-2{
-  width: 100%;
-  margin-bottom: 0;
-}
-#entrainements .no-flip-card-inner-img-3{
-  width: 100%;
-  margin-bottom: 0;
-}
-#entrainements .no-flip-card-inner-img-4{
-  width: 100%;
-  margin-bottom: 0;
-}
-#entrainements .no-flip-card-inner-img-5{
-  width: 100%;
-  margin-bottom: 0;
-}
+
 #entrainements .no-flip-card {
   margin-bottom: 20px;
 }
