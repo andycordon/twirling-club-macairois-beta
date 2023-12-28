@@ -844,99 +844,47 @@ margin:30px 0 10px 0;
   margin:20px 0 10px 0;
 }
 /*Entrainement carousel*/
-#entrainements .carousel-item {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 450px;
-  flex: 1 0 250px;
-  margin: 0px 0px;
-  scroll-snap-align: start;
-}
 #entrainements .carousel-items {
   display: flex;
   overflow-x: scroll;
-  padding: 0px 5px 10px 5px;
+  padding: 0px 0px 10px 0px;
+  margin-bottom: 20px;  
+}
+#entrainements .carousel-item {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex: 1 0 250px;
+  scroll-snap-align: start;
 }
 #entrainements .no-flip-card {
-  display: flex;
-  color: #fff;
+  display: flex;  
   border: 3px solid #e6dbc6;
   border-radius: 25px;
-}
-#entrainements .no-flip-card-inner-img-1{
-  width: 320px;
-  height: 320px;
-  border: 1px #fff solid;
-  border-radius: 20px;
-  background-image: url("./img/entrainement-3.png");  margin: 5px;
-  background-size: cover;
-  color: #030303;
-}
-#entrainements .no-flip-card-inner-img-2{
-  width: 320px;
-  height: 320px;
-  border: 1px #fff solid;
-  border-radius: 20px;
-  background-image: url("./img/entrainement-2.png");  margin: 5px;
-  background-size: cover;
-  color: #030303;
-}
-#entrainements .no-flip-card-inner-img-3{
-  width: 320px;
-  height: 320px;
-  border: 1px #fff solid;
-  border-radius: 20px;
-  background-image: url("./img/entrainement-4.png");  margin: 5px;
-  background-size: cover;
-  color: #030303;
-}
-#entrainements .no-flip-card-inner-img-4{
-  width: 320px;
-  height: 320px;
-  border: 1px #fff solid;
-  border-radius: 20px;
-  background-image: url("./img/entrainement-1.png");  margin: 5px;
-  background-size: cover;
-  color: #030303;
-}
-#entrainements .no-flip-card-inner-img-5{
-  width: 320px;
-  height: 320px;
-  border: 1px #fff solid;
-  border-radius: 20px;
-  background-image: url("./img/entrainement-5.png");  margin: 5px;
-  background-size: cover;
-  color: #030303;
 }
 #entrainements .no-flip-card-inner{
   width: 320px;
   height: 320px;
   border: 1px #fff solid;
-  border-radius: 20px;
-  background-image: linear-gradient(10deg, #e61652 , #e6dbc6 );  
   color: #030303;
-  margin: 5px 5px 0 5px;
-}
-#entrainements .no-flip-card-inner-img{
+  margin: 5px;
+  background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
 }
-#entrainements .no-flip-card-inner-img img{
-  border: none;
-  border-radius: 20px;
-  padding: 0;
+#entrainements .section1-3{
+  border-radius: 20px 0 0 20px;
 }
-#entrainements .no-flip-card-inner h3, .no-flip-card-inner-img-1 h3, .no-flip-card-inner-img-2 h3, .no-flip-card-inner-img-3 h3, .no-flip-card-inner-img-4 h3, .no-flip-card-inner-img-5 h3{
-  margin: 60px 0;
+#entrainements h3 {
+  margin:20px 0 50px 0;
 }
 .fa-circle-arrow-right{
   font-size: 30px;
   position: relative;
-  margin: 20px 0 0 260px;
+  margin: 60px 0 0 250px;
   color: #e61652;
+  
 }
 .fa-circle-arrow-right:hover{
   animation: bounce 500ms;
@@ -944,24 +892,45 @@ margin:30px 0 10px 0;
   scale: 1.3;
   opacity: 0.9;
 }
-#entrainements .no-flip-card-inner iframe{
-  border:none;
-  border-radius: 0 0 19px 19px;
-  margin: 10px 0px 0px 0;
-  padding: 0;
+#entrainements .img-1{
+  background-image: url("./img/entrainement-3.png");  
 }
-#entrainements .no-flip-card-inner p, .no-flip-card-inner-img-1 p, .no-flip-card-inner-img-2 p, .no-flip-card-inner-img-3 p, .no-flip-card-inner-img-4 p, .no-flip-card-inner-img-5 p {
-  margin-top: 20px;
+#entrainements .img-2{
+  background-image: url("./img/entrainement-2.png");
+}
+#entrainements .img-3{
+  background-image: url("./img/entrainement-4.png");
+}
+#entrainements .img-4{
+  background-image: url("./img/entrainement-1.png");
+}
+#entrainements .img-5{
+  background-image: url("./img/entrainement-5.png");
+}
+#entrainements .section2-3{
+  background-image: linear-gradient(10deg, #e61652 , #e6dbc6 );  
+  margin: 5px 0px;
+}
+#entrainements iframe{
+  border: none;
+  border-top: 1px #fff solid;
+  border-radius: 0;
+  padding: 0;
+  margin:12px 0 -13px 0;
+}
+#entrainements .section3-3{
+  border-radius: 0 20px 20px 0;
+}
+#entrainements .section3-3 img{
+  border: none;
+  padding: 0;
+  border-radius: 0 20px 20px 0;
 }
 #entrainements .buttonPlus{
   margin: 20px 0 20px 0;
 }
 #entrainements .regles p{
   margin: 15px;
-}
-.info-title {
-  padding: 95px 0 0 0;
-  margin: 0px;
 }
 
 
@@ -1078,7 +1047,10 @@ margin:30px 0 10px 0;
   padding: 0 0 20px 0;  
     border-bottom: 1px solid #e6dbc6;
 }
-
+.info-title {
+  padding: 95px 0 0 0;
+  margin: 0px;
+}
 
 
 #infos details {
