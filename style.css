@@ -1358,11 +1358,7 @@ padding: 0 0 5px 0;
   z-index: 2;
 }
 
-
-
-
-
-/*Entrainement carousel*/
+/*Tab entrainement*/
 #entrainements .section1-3{
  cursor: default;
 }
@@ -1385,9 +1381,6 @@ padding: 0 0 5px 0;
 #entrainements .section3-3 img{
   border-radius: 0 0 20px 0;
 }
-
-
-/*Tab entrainement*/
 .fa-circle-arrow-right{
   display: none;
 }
@@ -1744,6 +1737,21 @@ margin: 10px 0 40px 0;
     }
     
 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
     /*Desk entrainement*/
     #entrainements .no-flip-card {
       width: 996px;
@@ -1752,25 +1760,32 @@ margin: 10px 0 40px 0;
     #entrainements .carousel-items {
       overflow-x: hidden;
     }
-    #entrainements .no-flip-card-inner-img-1, #entrainements .no-flip-card-inner-img-2, #entrainements .no-flip-card-inner-img-3, #entrainements .no-flip-card-inner-img-4, #entrainements .no-flip-card-inner-img-5{
-      width: 320px;
-      height: 320px;
-      margin: 5px;
-    }
-
-    #entrainements .no-flip-card-inner-img{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    #entrainements .no-flip-card-inner-img img{
-      width: 320px;
-      height: 320px;
-      border: 1px #fff solid;
-    }
     #entrainements .entrainement-descriptions {
       width: 50%;
-      }
+      }   
+    #entrainements .section1-3{
+      width: 320px;
+      border-radius: 20px 0 0 20px;
+      margin: 5px;
+    }
+    #entrainements .section2-3{
+      margin: 5px 0px;
+      
+      border-radius: 0;
+      width: 330px;
+    }
+    #entrainements iframe{
+      border-radius: 0;
+      padding: 0;
+    }
+    #entrainements .section3-3{
+      border-radius: 0 20px 20px 0;
+      margin: 5px;
+    }
+    #entrainements .section3-3 img{
+      width: 100%;
+      border-radius: 0 20px 20px 0;
+    }
 
 
 
