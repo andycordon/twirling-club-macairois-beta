@@ -1369,16 +1369,15 @@ padding: 0 0 5px 0;
  cursor: default;
 }
 #entrainements .section2-3{
-  margin: 0px 0px 5px -5px;
+  margin: 0px 0px -5px -5px;
   border-radius: 0 0 0 20px;
   width: 326px;
 }
 #entrainements iframe{
   border: none;
   border-top: 1px #fff solid;
-  border-radius: 0 0 0 20px;
+  border-radius: 0 0 0 19px;
   padding: 0;
-  margin:12px 0 -13px 0;
 }
 #entrainements .section3-3{
   margin: 0px -5px 5px 5px;
