@@ -369,11 +369,10 @@ header a p {
     margin:40px 0 0px 0;
   }
   #section8 .logos {
-    padding: 20px 0px;
+    overflow: hidden;
+    padding: 20px 0;
     white-space: nowrap;
     position: relative;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch; /* Pour le support tactile sur iOS */
   }
   
   #section8 .logos:before,
@@ -387,12 +386,10 @@ header a p {
   }
   .logos::before {
     left: 0;
-    margin-left: -5px;
     background: linear-gradient(to left, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
   }
   .logos::after {
     right: 0;
-    margin-right: -5px;
     background: linear-gradient(to right, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
   }
   #section8 .logos:hover .logos-slide {
@@ -558,9 +555,9 @@ margin:30px 0 10px 0;
 #club .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-#club .flip-card-front img {
-
-}
+/* #club .flip-card-front img {
+  width: 100%;
+} */
 #club .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
