@@ -9,7 +9,7 @@ background: #e61652;
 @font-face {
   font-family: 'Arial Rounded MT Bold';
   src: local('Arial Rounded MT Bold'), url('https://fonts.cdnfonts.com/css/arial-rounded-mt-bold') format('woff');
-  font-display: swap;
+  font-display: optional;
 }
 /*Bouton du menu ouvert-fermé*/
 #check {
@@ -217,8 +217,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  background-color: red;
-  /* background-color: #030303; */
+  background-color: #030303;
   color: #fff;
   font-family: 'Arial Rounded MT Bold', sans-serif;
 }
