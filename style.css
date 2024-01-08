@@ -559,7 +559,7 @@ margin:30px 0 10px 0;
   transform: rotateY(180deg);
 }
 #club .flip-card-front img {
-  width: 100%;
+
 }
 #club .flip-card-front, .flip-card-back {
   position: absolute;
