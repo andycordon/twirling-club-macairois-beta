@@ -6,11 +6,7 @@
 color: #fff;
 background: #e61652;
 }
-@font-face {
-  font-family: 'Arial Rounded MT Bold';
-  src: local('Arial Rounded MT Bold'), url('https://fonts.cdnfonts.com/css/arial-rounded-mt-bold') format('woff');
-  font-display: swap;
-}
+
 /*Bouton du menu ouvert-fermé*/
 #check {
   display: none;
