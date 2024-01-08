@@ -375,10 +375,9 @@ header a p {
     margin:40px 0 0px 0;
   }
   #section8 .logos {
-    padding: 20px 0;
+    padding: 20px 0px;
     white-space: nowrap;
     position: relative;
-    overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch; /* Pour le support tactile sur iOS */
   }
@@ -394,10 +393,12 @@ header a p {
   }
   .logos::before {
     left: 0;
+    margin-left: -5px;
     background: linear-gradient(to left, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
   }
   .logos::after {
     right: 0;
+    margin-right: -5px;
     background: linear-gradient(to right, rgba(3, 3, 3, 0), rgba(3, 3, 3, 1));
   }
   #section8 .logos:hover .logos-slide {
