@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Arial Rounded MT Bold';
+  src: local('Arial Rounded MT Bold')
+}
+
 ::selection {
  color: #fff;
  background: #e61652;
