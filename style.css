@@ -1048,7 +1048,7 @@ margin:30px 0 10px 0;
     margin: 0px;
 }
 .info-menu-title {
-  margin: 20px 0 10px 0; 
+  margin: 30px 0 10px 0; 
 }
 .info-menu {
   display: flex;
@@ -1505,10 +1505,9 @@ margin: 10px 0 40px 0;
 }
 
 
-/* menu infos pratique */
-  .info-menu a p{
-    padding: 5px 10px;
-    width: 180px;
+/* Tab menu infos pratique */
+  .info-menu-title{
+    margin: 25px 0 10px 0;
   }
   .info-menu a p{
     padding: 5px 10px;
@@ -1711,6 +1710,15 @@ margin: 10px 0 40px 0;
     
 
       /*Desk infos pratiques*/
+      .info-menu {
+        margin-bottom: -160px;
+      }
+      .info-menu-title {
+        margin: 210px 0 10px 0;
+      }
+      .info-menu a p{
+        width: 190px;
+      }
       #infos {
         display: flex;
         flex-wrap:wrap;
@@ -1722,7 +1730,7 @@ margin: 10px 0 40px 0;
         width: 45%;
         margin: 20px;
         border: 1px #e6dbc6 solid;
-        padding: 10px;
+        padding: 20px 0 0 10px;
         border-radius: 20px;
       }
       
@@ -1736,7 +1744,6 @@ margin: 10px 0 40px 0;
 
 
      /*Desk contact*/
-
      .contact-infos {
       display: flex;
       justify-content: center;
@@ -1777,23 +1784,7 @@ margin: 10px 0 40px 0;
       width: 150px;
       margin: 0 0 0 -346px;
     }
-    
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
+  
     /*Desk entrainement*/
     #entrainements .no-flip-card {
       width: 996px;
