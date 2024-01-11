@@ -387,7 +387,7 @@ header a p {
     content: "";
     z-index: 2;
     height: 100%;
-    width: 150px;
+    width: 40px;
   }
   .logos::before {
     left: 0;
