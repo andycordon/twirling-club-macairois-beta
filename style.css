@@ -1081,6 +1081,7 @@ margin:30px 0 10px 0;
 #infos h2 {
   padding: 0 0 20px 0;  
   border-bottom: 1px solid #e6dbc6;
+  margin: auto;
 }
 #infos details {    color: #fff;
 border-bottom: 1px solid #e6dbc6;
@@ -1094,7 +1095,7 @@ text-align: left;
   list-style: none;
   cursor: pointer;
   padding: 5px 10px;
-  border: 1px solid #030303;
+  border: 1px solid transparent;
   font-size: 18px;
 }
 #infos summary:after {
