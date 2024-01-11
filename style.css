@@ -387,7 +387,6 @@ header a p {
     content: "";
     z-index: 1;
     margin-top: 40px;
-    height: 100%;
     width: 40px;
   }
   .logos::before {
@@ -1303,6 +1302,11 @@ padding: 0 0 5px 0;
     align-items: start;
     grid-column:1;
     grid-row: 3;
+  }
+  #section8 .logos:before,
+  .logos:after {
+    width: 80px;
+    height: 100%;
   }
 
   /*Tab margin top all page*/
