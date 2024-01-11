@@ -385,7 +385,8 @@ header a p {
     position: absolute;
     top: 0;
     content: "";
-    z-index: 2;
+    z-index: 1;
+    margin-top: 40px;
     height: 100%;
     width: 40px;
   }
