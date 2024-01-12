@@ -4,12 +4,12 @@
   }
   
   ::selection {
-   color: #fff;
-   background: #e61652;
-   }
+    color: #fff;
+    background: #e61652;
+  }
   ::-moz-selection {
-  color: #fff;
-  background: #e61652;
+    color: #fff;
+    background: #e61652;
   }
   
   /*Bouton du menu ouvert-fermé*/
@@ -115,8 +115,8 @@
   }
   .baton {
     position: absolute;
-    width: 140px;
-    margin: 80px 0 0 -200px;
+    width: 120px;
+    margin: 123px 0 0 -203px;
     animation: rotate 900ms linear infinite;
   }
   .logoAccueil {
@@ -142,10 +142,9 @@
   }
   .baton-twirleuse {
     position: absolute;
-    margin: 0 0 0 -158px;
+    margin: 43px 0 0 -143px;
     animation: rotation 400ms linear infinite;
-    width: 140px;
-    border-radius: 100%;
+    width: 110px;
   }
   .elevation-baton {
     z-index: -100;
@@ -1195,8 +1194,8 @@
       height: 400px;
     }
     .baton {
-      width: 120px;
-      margin: -43px 0 0 -165px;
+      width: 100px;
+      margin: -5px 0 0 -165px;
     }
     .logoAccueil{
       margin: 0;
@@ -1445,8 +1444,8 @@
   }
   .baton-twirleuse {
     position: absolute;
-    width: 150px;
-    margin: -4px 0 0 -173px;
+    width: 110px;
+    margin: 44px 0 0 -156px;
   }
   
   .img-twirleuse {
@@ -1639,8 +1638,8 @@
   
   
     .baton {
-      width: 210px;
-      margin: -77px 0 0 -279px;
+      width: 160px;
+      margin: -8px 0 0 -279px;
     }
     .logoAccueil{
       width: 500px;
@@ -1787,8 +1786,8 @@
       }
       .baton-twirleuse {
         position: absolute;
-        width: 150px;
-        margin: 0 0 0 -346px;
+        width: 110px;
+        margin: 50px 0 0 -325px;
       }
     
       /*Desk entrainement*/
