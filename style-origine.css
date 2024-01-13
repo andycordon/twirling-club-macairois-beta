@@ -1194,8 +1194,8 @@
       height: 400px;
     }
     .baton {
-      width: 100px;
-      margin: -5px 0 0 -165px;
+      width: 120px;
+      margin: -43px 0 0 -165px;
     }
     .logoAccueil{
       margin: 0;
@@ -1444,8 +1444,8 @@
   }
   .baton-twirleuse {
     position: absolute;
-    width: 110px;
-    margin: 44px 0 0 -156px;
+    width: 150px;
+    margin: -4px 0 0 -173px;
   }
   
   .img-twirleuse {
@@ -1638,8 +1638,8 @@
   
   
     .baton {
-      width: 160px;
-      margin: -8px 0 0 -279px;
+      width: 210px;
+      margin: -77px 0 0 -279px;
     }
     .logoAccueil{
       width: 500px;
@@ -1786,8 +1786,8 @@
       }
       .baton-twirleuse {
         position: absolute;
-        width: 110px;
-        margin: 50px 0 0 -325px;
+        width: 150px;
+        margin: 0 0 0 -346px;
       }
     
       /*Desk entrainement*/
