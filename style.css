@@ -1090,6 +1090,8 @@
   border-bottom: 1px solid #e6dbc6;
   padding: 10px 0px 10px 10px;
   text-align: left;
+  
+  
   }
   #infos summary {
     display: flex;
@@ -1100,11 +1102,12 @@
     padding: 5px 10px;
     border: 1px solid transparent;
     font-size: 18px;
+    
   }
   #infos summary:after {
     content: "\002B";
     padding: 3px 8px;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 10px 5px 5px;
     border-radius: 20px;
     background-color: #e61652;
     color: #e6dbc6;
@@ -1115,13 +1118,19 @@
     border-left: 1px solid #e6dbc6;
     border-right: 1px solid #e6dbc6;
     border-radius: 15px 15px 0 0;
+    margin-right: 10px;
+
+
   }
   #infos details[open] summary:after {
     content: "\00D7";
+    margin: 5px 0px 5px 5px;
+
   }
   #infos .reponse {
     text-align: left;
     padding: 10px;
+    margin-right: 10px;
     background-color: #e6dbc6;
     color: #030303;
     border-radius: 0 0 15px 15px;
