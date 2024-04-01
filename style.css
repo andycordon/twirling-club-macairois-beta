@@ -363,7 +363,11 @@
   #section7 a{
     color: #fff;
   }
-  
+  #section7 a:hover {
+    transition: all 400ms ease-out;
+    color:#e61652;
+    opacity: 0.7;
+  }
     #section7{
       margin: 90px 0 0px 0;
     }
